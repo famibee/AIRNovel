@@ -1,0 +1,54 @@
+;#USE-FONT	VL_Gothic
+	[add_lay layer=base class=grp]
+	[add_lay layer=0 class=grp]
+	[add_lay layer=mes class=txt]
+
+	; ASフィルタプラグインをロード
+	[loadplugin fn="plgASFilter"]
+
+	[loadplugin fn="VL_Gothic" join=true]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+	; Pキーで画面をスナップショット（デスクトップに保存）
+	[event global=true call=true key=p label=*snapshot]
+
+
+; テキストレイヤ全画面設定
+[macro name="txt_lay_fullscreen"]
+	[lay * layer="mes" page=%page|back visible=%visible|true b_left=40 b_top=40 b_width="&const.flash.display.Stage.stageWidth -40*2" b_height="&const.flash.display.Stage.stageHeight -40*2" b_color=%b_color|&0x000000 b_alpha=0 r_size=12 max_col=26 bura_col=2 max_row=17 layout='lineHeight="36" justificationRule="space" columnGap="0" paddingLeft="70" paddingTop="70" paddingRight="70" paddingBottom="70" verticalAlign="inherit" blockProgression="tb" lineBreak="explicit" fontFamily="ＶＬゴシックcff" fontLookup="embeddedCFF" renderingMode="cff" fontSize="24" locale="ja" kerning="off" trackingRight="0" color="0xffffff" whiteSpaceCollapse="preserve"']
+[endmacro]
+
+	[call fn=ext_*]	; ext_*.anというスクリプトを全部コールする
+
+
+
+	[txt_lay_fullscreen page=fore]
+	[add_asfilter layer="mes" filter="glow" f_color=0x000000 f_blur_x=8 f_blur_y=8 f_strength=16]
+
+	[fg fn="bg_1" layer=base]
+	[fg fn="akane0" layer=0]
+
+*loop
+	★レイヤーやプラグインにカラー調整の効果を加えるタグ[l][r]
+
+	; Photoshopの色調補正（カラーバランス）の数値/2を指定する。
+	; 大体同じような効果に。
+	[add_color_transform layer="base" ro=&46/2 go=&-18/2 bo=&-11/2]
+
+	背景にカラー調整をかけてみました。[l][r]
+
+
+
+
+	最後に効果をクリアします。[l][er]
+	[clear_color_transform layer="base"]
+[jump label=*loop]
+
+
+
+*toggle_full_screen
+	[toggle_full_screen][return]
+
+*snapshot
+	[snapshot layer="base,0,mes"][return]

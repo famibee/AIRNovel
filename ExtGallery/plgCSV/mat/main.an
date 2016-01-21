@@ -1,0 +1,30 @@
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingLeft="15" fontSize="20" color="0xffffff"' max_col=13 max_row=8]
+
+	; プラグインをロード
+	[loadplugin fn="plgCSV"]
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+[read_csv fn=seiseki scope=save]
+[read_csv fn=seiseki line2name=true]
+[read_csv fn=s_t tab=true line2name=true]
+
+*loop
+	seiseki.1.1=
+	&seiseki.1.1&[r]
+	save:seiseki.4.3=
+	&save:seiseki.4.3&[r]
+	seiseki.算数.花子=
+	&seiseki.算数.花子&[r]
+
+	s_t.算数.花子=
+	&s_t.算数.花子&[r]
+	s_t.算数.与作=
+	&s_t['算数']['与作']&[r]
+	s_t.理科.与作=
+	&s_t.理科.与作&[r]
+	s_t.社会.与作=
+	&s_t.社会.与作&
+[s]

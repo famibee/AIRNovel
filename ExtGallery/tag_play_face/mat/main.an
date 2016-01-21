@@ -1,0 +1,49 @@
+	[add_lay layer=base class=grp]
+	[add_lay layer=0 class=grp]
+	[add_lay layer=mes class=txt]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	; テキストレイヤ全画面設定
+	[lay layer="mes" page=fore visible=true b_left=40 b_top=40 b_width="&const.flash.display.Stage.stageWidth -40*2" b_height="&const.flash.display.Stage.stageHeight -40*2" b_color=0x000000 b_alpha=0.5 r_size=12 max_col=26 bura_col=2 max_row=17 layout='lineHeight="36" justificationRule="space" columnGap="0" paddingLeft="70" paddingTop="70" paddingRight="70" paddingBottom="70" verticalAlign="inherit" blockProgression="tb" lineBreak="explicit" fontLookup="embeddedCFF" renderingMode="cff" fontSize="24" locale="ja" kerning="off" trackingRight="0" color="0xffffff" whiteSpaceCollapse="preserve"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[lay layer=base page=fore fn="車外_昼_雲_列車" visible=true]
+
+*loop
+	ロゴ
+	[lay layer=0 page=fore visible=true fn=EyeCatch left=0 top=0]
+	
+;	[let_face_totalframes layer=0 page=fore face_no=0 name=frm]
+;	[trace text=&frm]
+;	[let_face_frame layer=0 page=fore face_no=0 name=frm]
+;	[trace text=&frm]
+	
+;	[wa layer=0 page=fore face_no=1]	; Err ok
+;	[wa layer=0 page=fore face_no=0]	; ok
+;	[l]	; [wa]の前にアニメが終わる場合 ok
+	[wa layer=0 page=fore face_no=0 arrive=true]	; ok
+	終了[l][r]
+
+	次
+;	[play_face layer=0 page=fore face_no=0]	; ok
+;	[play_face layer=0 page=fore face_no=0 frame=20]	; ok
+;	[stop_face layer=0 page=fore face_no=0 frame=20]	; ok
+	[stop_face layer=0 page=fore face_no=0 label="go"]	; ok
+	
+	; ok
+;	[let_face_frame layer=0 page=fore face_no=0 name=frm]
+;	[trace text=&frm]
+	
+	ＯＫ[l][er]
+
+
+
+[jump label=*loop]
+
+
+*toggle_full_screen
+	[toggle_full_screen][return]

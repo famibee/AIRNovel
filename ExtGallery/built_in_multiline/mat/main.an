@@ -1,0 +1,19 @@
+	&an.chkFontMode=false
+
+	[add_lay layer=mes class=txt]
+	[lay
+		layer="mes"
+		visible=true	; コメント
+	b_alpha=0.8	b_color=0x888888
+		r_size=12 r_align="121"
+layout='blockProgression="rl" lineHeight="36" paddingTop="15" paddingRight="15" fontSize="24" color="0xffffff"']
+
+	multiline tag[r]
+	[span
+		layout
+	=
+		'color="0xaaaaaa"'
+	]
+	タグやマクロは複数行に改行して書ける[r]
+	[span]
+[s]

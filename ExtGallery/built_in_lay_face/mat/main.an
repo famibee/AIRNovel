@@ -1,0 +1,38 @@
+	[add_lay layer=base class=grp]
+	[add_lay layer=0 class=grp]
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true b_alpha=0 max_col=17 r_size=12 r_align="121" layout='blockProgression="tb" lineHeight="22" paddingLeft="5" fontSize="16" color="0xffffff"']
+	[lay fn="yun_5745" layer=base page=fore visible=true]
+
+	[title text="&const.flash.desktop.NativeApplication.nativeApplication.applicationDescriptor.filename +'  ver '+ tmp:const.flash.desktop.NativeApplication.nativeApplication.applicationDescriptor.versionNumber@str"]
+
+	[event global=true key=f5 label=*reload_script cond="const.flash.system.Capabilities.isDebugger"]
+	[macro name="lr"][l][r][endmacro][char2macro char=@ name=lr]
+
+	[call fn=ext_*]		; ext_**.anというスクリプトを全部コールする
+
+;*********************************************************
+	; *** 蓑浦くんの立ち絵顔差分を読み込む ***
+	[call fn="蓑浦"]
+	; まばたき用に手書きで[add_face]
+[add_face name="mabataki" dx=170 dy=159]
+
+;*********************************************************
+; ゲーム本編
+	[record_place]		; [reload_script]チェック用
+
+*loop
+	[r]
+	[fg fn="蓑浦_身体_和装" face="蓑浦_口_普通,蓑浦_眼_普通,蓑浦_眉_普通"]
+口＝普通、眼＝普通、眉＝普通。[l][r]
+	[fg fn="蓑浦_身体_和装" face="蓑浦_口_微笑,蓑浦_眼_普通,蓑浦_眉_憂い"]
+口＝微笑、眼＝普通、眉＝憂い。[l][r]
+	[fg fn="蓑浦_身体_和装" face="蓑浦_口_開き,蓑浦_眼_半開き,蓑浦_眉_怒り"]
+口＝開き、眼＝半開き、眉＝怒り。[l][r]
+	[fg fn="蓑浦_身体_和装" face="蓑浦_口_微笑,mabataki,蓑浦_眉_憂い" time=0]
+口＝微笑、眼＝まばたき、眉＝憂い。[l][er]
+[jump label=*loop]
+;*********************************************************
+
+*reload_script
+[reload_script]

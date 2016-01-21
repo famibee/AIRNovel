@@ -1,0 +1,30 @@
+	[add_lay layer=mes class=txt]
+	[add_lay layer=upd class=grp]
+	[lay layer="mes" visible=true b_alpha=0.8 b_color=0x888888 r_size=12 r_align="121" layout='blockProgression="rl" lineHeight="36" paddingTop="15" paddingRight="15" fontSize="24" color="0xffffff"' draggable=true drag_x=-250 drag_y=-250 drag_w=500 drag_h=500]
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	draggable[r]
+	[span layout='color="0xaaaaaa"']
+	ドラッグサンプル[r]
+	[span]
+
+	[lay layer=upd fn="update" visible=true left=86 top=86 draggable=true dragmove_label=*dragmove]
+
+	[button layer="mes" page=fore pic="btn" left=25 top=25 global=true call=true label=*btn draggable=true]
+	[button layer="mes" page=fore pic="btn" left=25 top=150 global=true call=true label=*btn draggable=true event_at_down=true]
+	[button layer="mes" page=fore pic="btn" left=150 top=150 global=true call=true label=*btn draggable=true event_at_down=true dragmove_label=*dragmove]
+
+	[p][er]
+
+	ok
+[s]
+
+*btn
+	押
+[return]
+
+*dragmove
+	動
+[return]

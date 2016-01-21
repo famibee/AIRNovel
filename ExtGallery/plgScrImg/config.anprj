@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<first_script fn="main"/>
+	<save_ns name="com.fc2.blog38.famibee.anbooks_made.ScrImg" localpath="/"/>
+
+	<search>
+		<path dir="bgimage" />
+		<path dir="mat" />
+	</search>
+	<window width="300" height="300"/>
+	<anbook prjtype="Plugin"
+			title="plgScrImg"
+			creator="famibee"
+			cre_url="https://twitter.com/#!/ugainovel"
+			publisher="電子演劇部"
+			pub_url="http://famibee.blog38.fc2.com/"
+			detail="マウスやタッチ操作でスクロールして画像ビュアーなどを提供する。"
+
+			nocode="true"
+			pack_exc="\.swf\.cache">
+		<inc path="build.xml"/>
+		<inc path="prj-app.xml"/>
+		<inc path="source"/>
+		<inc path="SDK"/>
+		<inc path="ktween.swc"/>
+	</anbook>
+</config>

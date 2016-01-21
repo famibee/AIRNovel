@@ -1,0 +1,13 @@
+<config>
+  <first_script fn="main"/>
+  <save_ns name="com.fc2.blog38.famibee.anbooks_made.face" localpath="/"/>
+  <search>
+    <path dir="mat"/>
+    <path dir="face"/>
+    <path dir="ext"/>
+  </search>
+  <coder len="0x360"/>
+  <window width="300" height="300"/>
+  <anbook title="表情差分" creator="ふぁみべぇ" cre_url="https://twitter.com/#!/ugainovel" publisher="電子演劇部" pub_url="http://famibee.blog38.fc2.com/" detail="表情差分とまばたき" nocode="true" pack_exc=".swf.cache"/>
+  <init/>
+</config>

@@ -1,0 +1,49 @@
+;#USE-FONT	KFhimajihoso
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingLeft="15" fontSize="24" color="0xffffff" fontFamily="KFhimajihoso" fontLookup="embeddedCFF" renderingMode="cff"']
+
+	[event global=true key=f5 label=*reload_script cond="const.flash.system.Capabilities.isDebugger"]
+
+	; プラグインをロード
+	[loadplugin fn="plgTxtIn" join=true]
+
+	[loadplugin fn="KFhimajihoso" join=true]
+;*********************************************************
+; ゲーム本編
+	[record_place]		; [reload_script]チェック用
+
+	[input_set text=入力してください width=220 size=20 border=true color=0x005555 label=*ok call=true]
+
+	[r]
+	[link label=*ok global=true call=true]OK[endlink]　　
+	[link label=*clear global=true call=true]clear[endlink]
+	[plugin name=plgTxtIn top=10 left=50 visible=true]
+[s]
+
+;*****************************
+*clear
+	[input_clear]
+[return]
+
+;*****************************
+*ok
+	[er]
+	[r]
+	[link label=*ok global=true call=true]OK[endlink]　　
+	[link label=*clear global=true call=true]clear[endlink]
+	[r]
+	入力された文字：[r]
+	[span layout='fontFamily="_等幅" fontLookup="device" renderingMode="normal"']
+		; OSのフォントで表示。どの環境でも使えることが保証されている「汎用デバイスフォント名」を指定
+		&an.chkFontMode=false
+			; フォントが埋め込まれてない文字を表示するかもなので
+		[input_OK name=text del=false]
+		[ch text="&'「'+text@str+'」'"]
+		&an.chkFontMode=true
+	[span]	; レイヤのデフォルト（3行目の設定）に戻す
+[return]
+
+;*********************************************************
+
+*reload_script
+[reload_script]

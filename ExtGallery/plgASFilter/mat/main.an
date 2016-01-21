@@ -1,0 +1,88 @@
+;#USE-FONT	VL_Gothic
+	[add_lay layer=base class=grp]
+	[add_lay layer=0 class=grp]
+	[add_lay layer=mes class=txt]
+
+	; ASフィルタプラグインをロード
+	[loadplugin fn="plgASFilter"]
+
+	[loadplugin fn="VL_Gothic" join=true]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+	; Pキーで画面をスナップショット（デスクトップに保存）
+	[event global=true call=true key=p label=*snapshot]
+
+
+; テキストレイヤ全画面設定
+[macro name="txt_lay_fullscreen"]
+	[lay * layer="mes" page=%page|back visible=%visible|true b_left=40 b_top=40 b_width="&const.flash.display.Stage.stageWidth -40*2" b_height="&const.flash.display.Stage.stageHeight -40*2" b_color=%b_color|&0x000000 b_alpha=0 r_size=12 max_col=26 bura_col=2 max_row=17 layout='lineHeight="36" justificationRule="space" columnGap="0" paddingLeft="70" paddingTop="70" paddingRight="70" paddingBottom="70" verticalAlign="inherit" blockProgression="tb" lineBreak="explicit" fontFamily="ＶＬゴシックcff" fontLookup="embeddedCFF" renderingMode="cff" fontSize="24" locale="ja" kerning="off" trackingRight="0" color="0xffffff" whiteSpaceCollapse="preserve"']
+[endmacro]
+
+	[txt_lay_fullscreen page=fore]
+
+	[call fn=ext_*]	; ext_*.anというスクリプトを全部コールする
+
+
+*loop
+
+[fg fn="bg_1" layer=base]
+[fg fn="akane0" layer=0 pos=c]
+
+★レイヤーやプラグインにASフィルタの効果を加えるプラグイン[l][r]
+[add_asfilter layer="mes" filter="glow" f_color=0x000000 f_blur_x=8 f_blur_y=8 f_strength=16]
+たとえば文字レイヤーにグローフィルタをかけると袋文字が表現でき、[l]
+
+[add_asfilter layer="mes" filter="glow" f_color=0xFF0000 f_blur_x=4 f_blur_y=4 f_strength=8]
+効果を重ねていくことも可能です。[l][r]
+
+[add_asfilter layer="base" filter="blur" f_blur_x=15 f_blur_y=15 f_quality=1]
+背景にブラーフィルタをかけてみました。[l][r]
+
+
+[add_asfilter layer="0" filter="drop_shadow" f_blur_x=15 f_blur_y=15 f_alpha=0.8]
+立ち絵にドロップシャドウをかけてみました。[l][r]
+[clear_asfilter layer="0"]
+
+[add_asfilter layer="0" filter="glow" f_color=0xFFFFEE f_blur_x=30 f_blur_y=30 f_strength=2 f_inner=true f_alpha=0.8]
+[add_asfilter layer="0" filter="glow" f_color=0xFFFFEE f_blur_x=30 f_blur_y=30 f_strength=2 f_inner=false f_alpha=0.4]
+立ち絵にグローをかけて逆光？オーラ？を表現してみるテスト。[l][r]
+このように、使い方次第でさまざまな表現が可能になります。[l]
+画像レイヤーに使用する時は、あらかじめスケールを少し拡大しておいて画面の端が変になるのを回避するなどの工夫が必要です。[l][r]
+
+
+最後にレイヤーの効果をクリアします。[l][r]
+[clear_asfilter layer="mes"]
+[clear_asfilter layer="base"]
+[clear_asfilter layer="0"]
+
+[er]
+[add_asfilter layer="mes" filter="glow" f_color=0x000000 f_blur_x=8 f_blur_y=8 f_strength=16]
+
+★カラーマトリックスフィルタと畳み込みフィルタを使用できるようにしてみました。[l][r]
+[add_asfilter layer=base filter=color_matrix f_matrix="0.3, 0.3, 0.3, 0,0,0.3,0.3,0.3,0,0,0.3,0.3,0.3,0,0,0,0,0,1,0"]
+モノクロ表示にしてみたり、[l]
+[add_asfilter layer=0 filter=color_matrix RtoR=0 GtoG=0]
+青成分だけ抜き出してみたり。[l][r]
+[clear_asfilter layer="base"]
+[clear_asfilter layer="0"]
+[add_asfilter layer=0 filter=convolution f_matrixX=3 f_matrixY=3 f_matrix=1,1,1,1,-6,1,1,1,1]
+エッジを追加してみたり、[l]
+[add_asfilter layer=base filter=convolution f_matrixX=3 f_matrixY=3 f_matrix=0,-1,0,-1,5,-1,0,-1,0]シャープネスっぽくしてみたり[l]
+[add_asfilter layer=base filter=convolution f_matrixX=1 f_matrixY=1 f_matrix=0.5]
+暗くしてみたり、が出来るようになりました。[l]
+[clear_asfilter layer="base"]
+[clear_asfilter layer="0"]
+[clear_asfilter layer="mes"]
+
+[er]
+
+[jump label=*loop]
+
+
+
+*toggle_full_screen
+	[toggle_full_screen][return]
+
+*snapshot
+	[snapshot layer="base,0,mes"][return]

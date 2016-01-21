@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<first_script fn="PluginTweensy.an"/>
+	<save_ns name="com.fc2.blog38.famibee.99878e72-e417-4007-b75f-c9a006a74fef"/>
+
+	<search>
+		<path dir="mat" />
+	</search>
+	<window width="800" height="600"/>
+</config>

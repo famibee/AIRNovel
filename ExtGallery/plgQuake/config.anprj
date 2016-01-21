@@ -1,0 +1,15 @@
+<config>
+  <first_script fn="main"/>
+  <save_ns name="com.fc2.blog38.famibee.anbooks_made.Quake" localpath="/"/>
+  <search>
+    <path dir="mat"/>
+  </search>
+  <window width="300" height="300"/>
+  <anbook prjtype="Plugin" title="plgQuake" creator="famibee" cre_url="https://twitter.com/#!/ugainovel" publisher="電子演劇部" pub_url="http://famibee.blog38.fc2.com/" detail="レイヤーやプラグインのDisplayObjectを地震のように揺らす。" nocode="true" pack_exc="\.swf\.cache">
+    <inc path="build.xml"/>
+    <inc path="prj-app.xml"/>
+    <inc path="source"/>
+    <inc path="SDK"/>
+    <inc path="TweensyOriginalCS4.swc"/>
+  </anbook>
+</config>

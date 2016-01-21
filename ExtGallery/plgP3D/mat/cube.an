@@ -1,0 +1,37 @@
+	[loadplugin fn="plgP3D"]
+	[add_lay layer=mes class=txt]
+	[loadplugin fn="breakline"]
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[lay layer="mes" visible=true b_top=385 b_height=200 b_color=0xFFFFFF b_alpha=0.5 r_size=12 layout='lineHeight="36" paddingTop="400" paddingLeft="15" fontSize="24" color="0x000000"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+;	[p3d_lay visible=true left=0 top=0 width=800 height=600 color=0x8888aa]
+	[p3d_lay visible=true stats=true]
+
+	[p3d_add_cast name="player" fn="cube" scale=3 autoplay=true loop=true]
+	[p3d_add_cast name="ground" primitive="plane" fn="nc10576" width=70 height=70 seg_w=0 seg_h=0 xyz="0,-30,0" rot="-90,0,0"]
+
+*loop
+;	[p3d_camera type=free xyz="3,2,3" zoom=100]
+	[p3d_camera type=spring xyz="0,12,-1" look="0,-8,0" mass=10 damping=10 stiffness=2 near=-10000 target="player"]
+	　立方体。[l][r]
+
+	[p3d_cast name="player" play=false]	　止[l]
+	[p3d_cast name="player" play=true]	動[l]
+	[p3d_cast name="player" play=false]	止[l]
+	[p3d_cast name="player" play=true]	動。[p][er]
+
+;	[p3d_camera type=free xyz="2.4,2,3" zoom=100]
+	[p3d_camera type=spring xyz="0,18,-1" look="0,-8,0" mass=10 damping=10 stiffness=2 near=-10000 target="player"]
+	　離れたり。[l][er]
+
+	[p3d_camera type=spring xyz="0,4,-1" look="0,-8,0" mass=10 damping=10 stiffness=2 near=-10000 target="player"]
+	　寄ってみたり。[l][er]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

@@ -1,0 +1,14 @@
+<config>
+  <first_script fn="main"/>
+  <save_ns name="com.fc2.web.famibee.TxtIn" localpath="/"/>
+  <search>
+    <path dir="mat"/>
+    <path dir="plg"/>
+  </search>
+  <coder len="0x360"/>
+  <window width="320" height="240"/>
+  <anbook prjtype="Plugin" title="文字入力プラグイン" creator="瀬戸愛羅" publisher="AIRNovelをさわろう！" pub_url="http://ansawaro.wy5.org/" detail="できることは、&#xA;・入力できる文字数の制限&#xA;・入力部分の文字の色やサイズの指定&#xA;・入力できる文字の制限&#xA;です。" nocode="true" pack_exc="\.swf\.cache" cre_url="https://twitter.com/setoaira">
+    <inc path="source"/>
+  </anbook>
+  <init bg_color="0xccccaa"/>
+</config>

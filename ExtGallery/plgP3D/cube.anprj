@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<first_script fn="cube"/>
+	<save_ns name="com.fc2.blog38.famibee.anbooks_made.P3D" localpath="/"/>
+
+	<search>
+		<path dir="mat" />
+	</search>
+	<window width="800" height="600"/>
+</config>

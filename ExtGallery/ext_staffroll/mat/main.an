@@ -1,0 +1,74 @@
+	[add_lay layer=base class=grp]
+	[add_lay layer=mes class=txt]
+
+	[event global=true key=f5 label=*reload_script cond="const.flash.system.Capabilities.isDebugger"]
+
+	[call fn=ext_*]		; ext_**.anというスクリプトを全部コールする
+
+	[loadplugin fn="ipag" join=true]
+;*********************************************************
+; ゲーム本編
+	[fg layer=base fn=jinjya time=0]
+
+	[staffroll_init height=1300]	; 横書き
+;;	[staffroll_init width=1300]	; 縦書き
+		; 数字は文字や画像からのなんとなくで。
+		; 多いとスクロール後停止する時間が長くなる挙動
+	[lay layer="mes" layout='fontFamily="ipag"']
+;;	[r][r][r][r][r]	; 縦書きの時、画面横方向が広い分の調整
+
+[r][r][r][r][r][r][r][r][r][r][r]
+[r][r][r][r][r][r][r]
+　◆画像素材[r]
+　　　鳥山石燕「画図百鬼夜行シリーズ」[r]
+　　　　[graph pic="Roll_Sekien"][r]
+[r]
+　　　井上圓了「妖怪玄談」「迷信解」[r]
+[r]
+　　　伊勢貞丈「安齋隨筆」[r]
+[r]
+　　　葛飾北斎「北斎漫画」[r]
+[r]
+　◆道具[r]
+　　◇基本システム[r]
+　　　　ふぁみべぇ（AIRNovel）電子演劇部[r]
+　　◇エディタ[r]
+　　　　www.sublimetext.com（Sublime Text）[r]
+　　◇ＩＭＥ[r]
+　　　　Justsystem Co.　（ATOK 2014）[r]
+　　◇テキストツール[r]
+　　　　SourceGear, LLC. （DiffMerge）[r]
+　　◇画像加工[r]
+　　　　Adobe Systems Inc.（PhotoShop CS 6）[r]
+[r]
+　◆スクリプト・演出・進行[r]
+　　　夕街昇雪[r]
+　　　　[graph pic="Roll_ugai"][r]
+[r]
+　　COPYRIGHT (C) 2015 KatsudouMangaYa.[r]
+　　　　ALL RIGHTS RESERVED.[r]
+　　　　[graph pic="Roll_logo"][r]
+
+
+	; *** BGM ***
+	[playbgm fn="minmin" loop=false join=true]
+
+	&isGameState = false	; ゲームのシステム系操作を無効に（テンプレの変数）
+[staffroll_start time='&(0*60+20)*1000' finish=*exit_staffroll]
+	; この数字はBGM曲の長さから
+
+;[s]	; こっちを有効にするとクリックスキップ無し
+	[p visible=false]
+	[staffroll_uninit]
+
+*exit_staffroll
+	&isGameState = true	; ゲームのシステム系操作を有効に（テンプレの変数）
+
+; *********** Staff Roll End ***********
+
+	[title text=ok.]
+[s]
+;*********************************************************
+
+*reload_script
+[reload_script]

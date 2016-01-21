@@ -1,0 +1,17 @@
+	[loadplugin fn="plgTweensy"]
+	[loadplugin fn="analogclock02"]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[plugin name="analogclock02" visible=false]
+
+*loop
+	[zoom_tsy plugin=analogclock02 time=2000 visible=true ease=Back.easeOut]
+	[waitclick]
+	[zoom_tsy plugin=analogclock02 time=2000 visible=false ease=Back.easeIn]
+	[waitclick]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

@@ -1,0 +1,12 @@
+<config>
+  <first_script fn="main"/>
+  <save_ns name="com.fc2.web.famibee.ext_tween" localpath="/"/>
+  <search>
+    <path dir="mat"/>
+    <path dir="ext"/>
+  </search>
+  <coder len="0x360"/>
+  <window width="800" height="600"/>
+  <anbook title="ext_tween拡張機能" creator="famibee" cre_url="https://twitter.com/#!/ugainovel" publisher="電子演劇部" pub_url="http://famibee.blog38.fc2.com/" detail="AIRNovelスクリプト処理を書けるトゥイーン" nocode="true" pack_exc="\.swf\.cache"/>
+  <init bg_color="0x448866"/>
+</config>

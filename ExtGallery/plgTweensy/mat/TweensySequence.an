@@ -1,0 +1,72 @@
+	[loadplugin fn="plgTweensy"]
+	[add_lay layer=絵 class=grp]
+	[add_lay layer=mes class=txt]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[event global=true call=true key=i label=*info]
+	[event global=true call=true key=p label=*resume]
+	[event global=true call=true key=r label=*replay]
+	[event global=true call=true key=l label=*loop]
+	[event global=true call=true key=s label=*start]
+	[event global=true call=true key=e label=*stop]
+	[event global=true call=true key=y label=*yoyo]
+	[loadplugin fn="KFhimajihoso" join=true]
+
+	[lay layer="mes" visible=true max_col=20 b_top=385 b_height=200 b_color=0xFFFFFF b_alpha=0.5 r_size=12 layout='lineHeight="36" paddingTop="400" paddingLeft="15" fontSize="24" color="0x000000" fontFamily="KFhimajihoso" fontLookup="embeddedCFF" renderingMode="cff"']
+
+	[lay layer=絵 fn="ans" visible=true]	;[waitclick]
+
+	　i=情報 s=開始 p=ポーズ/再開[r]
+	　e=再開不能な停止 l=ループ[r]
+	　r=replay y=逆進（停止中のみ）[r]
+
+*loop_main
+;	[tsy layer=絵 time=2000 y=0 ease=Bounce.easeOut]	[waitclick]
+;	[tsy layer=絵 time=2000 x=&800-112 ease=Bounce.easeIn]	[waitclick]
+;	[tsy layer=絵 time=2000 y=&600-112]	[waitclick]
+;	[tsy layer=絵 time=2000 x=0 ease=Bounce.easeInOut]	[waitclick]
+
+	[tsy_seq_new seq=一連の動作]
+	[tsy_seq_push seq=一連の動作 layer=絵 time=2000 y=0 ease=Bounce.easeOut]
+	[tsy_seq_push seq=一連の動作 layer=絵 time=2000 x=&800-112 ease=Bounce.easeIn]
+	[tsy_seq_push seq=一連の動作 layer=絵 time=2000 y=&600-112]
+	[tsy_seq_push seq=一連の動作 layer=絵 time=2000 x=0 ease=Bounce.easeInOut]
+
+	！[l]
+[jump label=*loop_main]
+
+*toggle_full_screen
+	[toggle_full_screen][return]
+
+*resume
+	[get_tsy_seq_paused name=v seq=一連の動作]
+	[tsy_seq_pause seq=一連の動作 cond=!v]
+	[tsy_seq_resume seq=一連の動作 cond=v]
+	[return]
+*replay
+	[tsy_seq_replay seq=一連の動作 type=replay][return]
+*loop
+	[tsy_seq_push seq=一連の動作 layer=絵 time=2000 x=&300-112 y=200]
+	[tsy_seq_replay seq=一連の動作 type=loop repeats=2][return]
+*start
+	[tsy_seq_start seq=一連の動作][return]
+*stop
+	[tsy_seq_stop seq=一連の動作][return]
+*yoyo
+	[tsy_seq_yoyo seq=一連の動作][return]
+	; 動作中のyoyoは無効など制限が多く、組み合わせによりフリーズ。
+
+*info
+	[trace text="<info>"]
+	[get_tsy_seq_paused name=v seq=一連の動作]
+	[trace text="&'  paused:'+ v"]
+	[get_tsy_seq_repeatcount name=v seq=一連の動作]
+	[trace text="&'  repeatcount:'+ v"]
+	[get_tsy_seq_snaptoclosest name=v seq=一連の動作]
+	[trace text="&'  snaptoclosest:'+ v"]
+	[return]
+
+;	[set_tsy_seq_repeatcount seq=一連の動作 text=0]
+;	[set_tsy_seq_snaptoclosest]

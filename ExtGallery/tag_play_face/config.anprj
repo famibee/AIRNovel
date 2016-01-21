@@ -1,0 +1,12 @@
+<config>
+  <first_script fn="main"/>
+  <save_ns name="com.fc2.web.famibee.tag_play_face" localpath="/"/>
+  <search>
+    <path dir="mat"/>
+  </search>
+  <coder len="0x360"/>
+  <window width="800" height="600"/>
+  <anbook title="swfアニメを操作" creator="famibee" cre_url="https://twitter.com/#!/ugainovel" publisher="電子演劇部" pub_url="http://famibee.blog38.fc2.com/" detail="【標準機能】画像レイヤ内に読み込んだswfアニメの終了を待ったり色々出来る" nocode="true" pack_exc="\.swf\.cache">
+    <inc path="source"/>
+  </anbook>
+</config>

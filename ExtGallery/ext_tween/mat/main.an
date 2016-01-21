@@ -1,0 +1,31 @@
+	[event global=true key=f5 label=*reload_script cond="const.flash.system.Capabilities.isDebugger"]
+
+	[call fn=ext_*]		; ext_**.anというスクリプトを全部コールする
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[loadplugin fn="ans" join=true]
+
+	[antw from=1 to=6 time=2000 update=*update finish=*fin_0]
+[s]
+
+
+*update
+	[plugin name=ans scale_x=&an.antw.v scale_y="&6 -an.antw.v" left=&600-90*an.antw.v top=20]
+	[title text="&'v:'+ an.antw.v"]
+[return]
+
+
+*fin_0
+	[antw from=6 to=1 time=2000 update=*update finish=*fin_1]
+[s]
+
+
+*fin_1
+	[title text=ok.]
+[s]
+;*********************************************************
+
+*reload_script
+[reload_script]

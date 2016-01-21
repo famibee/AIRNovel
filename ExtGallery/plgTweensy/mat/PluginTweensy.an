@@ -1,0 +1,17 @@
+	[loadplugin fn="plgTweensy"]
+	[loadplugin fn="analogclock02"]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[plugin name="analogclock02" visible=true left=&(800-100)/2 top=&(600-100)/2]
+
+*loop
+	[tsy plugin=analogclock02 time=2000 rotation="=0,90" ease=Back.easeInOut]	[waitclick]
+	[tsy plugin=analogclock02 time=1000 scaleX="=0.3,1.2" scaleY="=0.3,1.15" ease=Elastic.easeOut]	[waitclick]
+	[tsy plugin=analogclock02 time=1000 alpha=0.5]	[waitclick]
+	[tsy plugin=analogclock02 time=2000 alpha=1 ease=Bounce.easeOut]	[waitclick]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

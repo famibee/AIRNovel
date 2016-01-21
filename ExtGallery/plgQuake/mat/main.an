@@ -1,0 +1,34 @@
+	[loadplugin fn="plgQuake"]
+;	[loadplugin fn="plgQuakeB"]
+	[add_lay layer=絵 class=grp]
+	[add_lay layer=mes class=txt]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[lay layer="mes" visible=true max_col=20 b_top=85 b_height=200 b_color=0xFFFFFF b_alpha=0.5 r_size=12 layout='lineHeight="36" paddingTop="100" paddingLeft="15" fontSize="20" color="0x000000"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[lay layer=絵 fn="ans" left=50 top=50 visible=true]
+
+*loop
+	停止（クリックで開始）
+		[waitclick][r]
+	縦横8ドット揺れを2秒[r]
+	[quake time=2000 hmax=8 vmax=8]
+		[wq]
+	縦揺れを0.5秒[r]
+	[quake time=500 hmax=0 ease=Bounce.easeIn]
+		[wq]
+	横揺れを1秒[r]
+	[quake time=1000 vmax=0 ease=Bounce.easeOut]
+		[wq]
+	縦横2ドット揺れを1.5秒
+	[quake time=1500 hmax=2 vmax=2 ease=Bounce.easeInOut]
+		[wq][er]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

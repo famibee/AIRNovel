@@ -1,0 +1,16 @@
+	[loadplugin fn="plgTweensy"]
+	[add_lay layer=絵 class=grp]
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[lay layer=絵 fn="ans.jpg" visible=true left=&(800-112)/2 top=&(600-112)/2]
+
+*loop
+	[tsy layer=絵 time=2000 rotation="=0,90" ease=Back.easeInOut]	[waitclick]
+	[tsy layer=絵 time=1000 scaleX="=0.3,1.2" scaleY="=0.3,1.15" ease=Elastic.easeOut]	[waitclick]
+	[tsy layer=絵 time=1000 alpha=0.5]	[waitclick]
+	[tsy layer=絵 time=2000 alpha=1 ease=Bounce.easeOut]	[waitclick]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

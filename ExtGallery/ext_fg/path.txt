@@ -1,0 +1,1 @@
+{"akane0":{"png":"mat/akane0.png"},"akane1":{"swf":"mat/akane1.swf"},"ext_fg":{"an":"ext/ext_fg.an"},"main":{"an":"mat/main.an"},"bg_0":{"jpg":"mat/bg_0.jpg"},"bg_1":{"jpg":"mat/bg_1.jpg"},"breakline":{"swf":"mat/breakline.swf"}}

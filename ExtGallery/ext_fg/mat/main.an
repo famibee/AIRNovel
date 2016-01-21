@@ -1,0 +1,35 @@
+	[add_lay layer=base class=grp]
+	[add_lay layer=0 class=grp]
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" max_col=20 max_row=21 layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingLeft="15" fontSize="24" color="0x000000"']
+
+	[loadplugin fn="breakline"]	; クリック待ちswf
+
+	[call fn=ext_*]		; ext_**.anというスクリプトを全部コールする
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+*ループ処理
+	[fg fn="bg_0" layer=base]
+背景表示（クリックで背景変更）、[l]
+
+	[fg fn="bg_1" layer=base]
+背景変更、[l]
+
+
+; 立ち絵配置位置定数
+;	pos=&pos.l	等として使用。
+;	組み込みで「c」という指定が出来る。例：pos=c、pos="c"
+;	これを指定すると画面中央。（pos、leftを省略するとpos=c扱い）
+[let name="pos.l" text="140" cast=num]
+[let name="pos.r" text="&const.flash.display.Stage.stageWidth -l" cast=num]
+[let name="pos.lc" text="&(c + l) /2" cast=num]
+[let name="pos.rc" text="&(r + c) /2" cast=num]
+
+	[fg fn="akane0" layer=0]
+画像立ち絵、[l]
+
+	[fg fn="akane1" layer=0]
+フラッシュ立ち絵、[l]
+[jump label=*ループ処理]

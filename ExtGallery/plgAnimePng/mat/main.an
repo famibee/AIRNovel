@@ -1,0 +1,27 @@
+;#USE-FONT	KFhimajihoso
+	[add_lay layer=mes class=txt]
+	[add_lay layer=upd class=grp]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" layout='blockProgression="rl" lineHeight="36" paddingTop="15" paddingRight="15" fontSize="24" color="0xffffff" fontFamily="KFhimajihoso" fontLookup="embeddedCFF" renderingMode="cff"']
+
+	; プラグインをロード
+	[loadplugin fn="plgAnimePng" join=true]
+
+	[loadplugin fn="KFhimajihoso" join=true]
+;*********************************************************
+; ゲーム本編
+
+; 画像ファイルは一部こちらからお借りしています
+; APNG Software - Samples 1 http://littlesvr.ca/apng/gif_vs_apng.html
+
+[lay layer=mes page=fore visible=true b_pic=blink b_left=30 b_top=30 b_alpha=1]
+[lay layer=upd page=fore visible=true fn=clock left=0 top=0]
+[button layer=mes page=fore pic=btnOgg call=true label=*btn global=true hint=ogg top=240 event_at_down=true]
+;[button layer=mes page=fore pic=btnOgg_noa call=true label=*btn global=true hint=ogg top=240 event_at_down=true]
+
+*loop
+い[l]ろ[l]は[l]に[l]ほ[l]へ[l]と[l][r]
+[jump label=*loop]
+
+
+*btn
+	[playse fn=ma11][return]

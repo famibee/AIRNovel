@@ -1,0 +1,42 @@
+;*********************************************************
+;@EXT_DESC	AIRNovelスクリプト処理を書けるトゥイーン
+;@VER		2015.6.30.000
+;*********************************************************
+; 以降は基本ノータッチで
+[macro name="antw" exist_err=false]
+	&an.antw.from = mp:from	; 変数の開始値
+	&an.antw.to = mp:to		; 変数の目標値
+	&an.antw.t_m_f = an.antw.to -an.antw.from
+	&an.antw.t = mp:time		; 変化にかける時間(ms)
+	&an.antw.from_t = const.flash.utils.getTimer	; 開始時間(ms)
+	&an.antw.to_t = an.antw.from_t+an.antw.t	; 終了予定時間(ms)
+	[let name=an.antw.fn text=%fn|&mp:const.an.me_call_scriptFn]
+	&an.antw.upd = mp:update
+	&an.antw.fin = mp:finish
+	[event key=enter_frame label=*update call=true frame=&1000/const.flash.display.Stage.frameRate global=true]
+[endmacro]
+
+;*********************************************************
+[macro name="antw_finish" exist_err=false]
+	[event key=enter_frame del=true global=true]
+[endmacro]
+
+;*********************************************************
+[return]
+
+
+;*********************************************************
+*update
+	&an.antw.now = const.flash.utils.getTimer
+	[if exp="an.antw.to_t > an.antw.now"]
+		&an.antw.d = (an.antw.now - an.antw.from_t) / an.antw.t
+		&an.antw.v = an.antw.from +an.antw.t_m_f * an.antw.d
+		[jump fn=&an.antw.fn label=&an.antw.upd]
+	;	[call fn=&an.antw.fn label=&an.antw.upd][return]
+	[endif]
+	[antw_finish]
+	&an.antw.v = an.antw.to
+	[call fn=&an.antw.fn label=&an.antw.upd]
+
+	[pop_stack]
+[jump fn=&an.antw.fn label=&an.antw.fin]

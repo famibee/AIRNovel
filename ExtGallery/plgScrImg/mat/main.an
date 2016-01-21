@@ -1,0 +1,29 @@
+	[add_lay layer=mes class=txt]
+	[add_lay layer=pic class=grp]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingRight="15" fontSize="24" color="0xffffff"']
+
+	; プラグインをロード
+	[loadplugin fn="plgScrImg"]
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	　[link call=true label=*v af_ul=false arg=yun_1184]絵１[endlink]
+	　[link call=true label=*v af_ul=false arg=yun_1317]絵２[endlink][r]
+	[r]
+	　[link call=true label=*v af_ul=false arg=yun_2352]絵３[endlink]
+	　[link call=true label=*v af_ul=false arg=yun_2384]絵４[endlink]
+[s]
+
+*v
+;[er]
+	[mouse visible=true autohide=false]
+	
+	[lay layer=pic page=back fn=&const.an.eventArg]
+	[scrimg layer=pic page=back]		; 画像レイヤからイメージ作成
+	[clear_lay layer=pic page=both]		; リソース解放
+	[w_scrimg]
+	[plugin name="plgScrImg" visible=false]
+	
+	[mouse autohide=true]
+[return]

@@ -1,0 +1,13 @@
+<config>
+  <first_script fn="main"/>
+  <save_ns name="com.fc2.blog38.famibee.anbooks_made.CSV" localpath="/"/>
+  <search>
+    <path dir="mat"/>
+  </search>
+  <window width="800" height="300"/>
+  <anbook prjtype="Plugin" title="plgCSV" creator="瀬戸愛羅, famibee" cre_url="http://ansawaro.wy5.org/" publisher="電子演劇部" pub_url="http://famibee.blog38.fc2.com/" detail="csv形式ファイルをAIRNovelの変数として取り込む。" nocode="true" pack_exc="\.swf\.cache">
+    <inc path="build.xml"/>
+    <inc path="prj-app.xml"/>
+  </anbook>
+  <init/>
+</config>

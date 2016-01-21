@@ -1,0 +1,80 @@
+	[add_lay layer=絵 class=grp]
+	[lay layer=絵 fn="bg" visible=true]
+
+	[add_lay layer=文 class=txt]	; 本文
+
+	; ついでに履歴機能
+	[add_lay layer=履歴 class=txt]
+	[loadplugin fn="plgHistory" layer=履歴]
+
+	[event global=true call=true key=r label=*show_history]
+	[event global=true call=true key=up label=*show_history]
+	[event global=true call=true key=upwheel label=*show_history]
+
+; テキストレイヤ全画面設定
+[macro name="txt_lay_fullscreen"]
+	[lay * layer=%layer|"文" page=%page|back visible=%visible|true b_left=40 b_top=40 b_width="&const.flash.display.Stage.stageWidth -40*2" b_height="&const.flash.display.Stage.stageHeight -40*2" b_color=%b_color|&0xffffff b_alpha=%b_alpha|0.5 r_size=12 r_color=0x000000 max_col=34 bura_col=2 max_row=27 layout='lineHeight="36" justificationRule="space" columnGap="0" paddingLeft="70" paddingTop="70" paddingRight="70" paddingBottom="70" verticalAlign="inherit" blockProgression="tb" lineBreak="explicit" fontLookup="embeddedCFF" renderingMode="cff" fontSize="24" locale="ja" kerning="off" trackingRight="0" color="0x000000" whiteSpaceCollapse="preserve"']
+[endmacro]
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[txt_lay_fullscreen layer=文 page=fore b_alpha=0.7]
+	[txt_lay_fullscreen layer=履歴 page=fore visible=false]
+	[lay layer=履歴 page=fore b_left=0 b_top=0 b_width=1024 b_height=768 b_color=0x8888FF b_alpha=0.9]
+;	[lay layer=履歴 page=fore max_col=26 bura_col=2 max_row=34 layout='blockProgression="rl"']		; 縦書き
+
+　文字列と、文字と同じように画像を表示するサンプルです。[r]
+　[link href="http://www.geocities.jp/f9305710/henkanji.html" hint="ブラウザを開きます" f_color=0xffd900]漢字部屋[endlink]さんによると、ちくわという国字は[graph pic=ちくわ r=ちくわ]、最大画数の国字は[graph pic=たいと r=たいと]だそうです。[l][r]
+[r]
+　ただし文字と大きさを揃えないと[graph pic=ちくわ大]や[graph pic=たいと大]って事に……。[l][r]
+[r]
+　画像だけでなくswfファイルを出す事も出来ます。こんな感じ[graph pic=sekihara118]。[l][r]
+（2010/6/7以降版ではクリック待ち[graph pic=breakline][graph pic=breakpage]もインライン画像です）[l][r]
+[r]
+　ベクター画像を変換[graph pic=butterfly]すればエッジも美しく。[l][r]
+[r][r][r]
+　このように様々な画像を表示できます。[p][er]
+
+
+　このサンプルは履歴機能も付属しているので、カーソル上キーでどのように表示されるか確認してみてください。（ＳｈｉｆｔやＤｅｌで戻る）[l][r]
+　以上です。[s]
+
+
+*toggle_full_screen
+	[toggle_full_screen][return]
+
+
+*show_history
+	[enable_event enabled=false]
+	[clear_event]
+;[dump_val]
+	[history_redraw text=&save:const.an.sLog]
+*retry
+	[event key=rightclick label=*cancel]
+	[event key=r label=*cancel]
+	[event key=delete label=*cancel]
+	[event key=backspace label=*cancel]
+	[event key=shift label=*cancel]
+
+	[event key=up label=*scroll call=true arg=-1]
+	[event key=down label=*scroll call=true arg=1]
+	[event key=right label=*scroll call=true arg=-1]
+	[event key=left label=*scroll call=true arg=1]
+	[event key=page_down label=*scroll call=true arg=5]
+	[event key=page_up label=*scroll call=true arg=-5]
+	[event key=home label=*scroll call=true arg=-999]
+	[event key=end label=*scroll call=true arg=999]
+	[event key=upwheel label=*scroll call=true arg=-1]
+	[event key=downwheel label=*scroll call=true arg=1]
+[s]
+
+;*********************************************************
+*scroll
+	[history_scroll move=&const.an.eventArg][return]
+
+;*********************************************************
+*cancel
+	[lay layer=履歴 page=fore visible=false]
+	[enable_event enabled=true]
+[return]

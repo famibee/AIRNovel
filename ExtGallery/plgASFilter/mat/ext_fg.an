@@ -1,0 +1,29 @@
+;*********************************************************
+;@EXT_DESC	クロスフェードしながらレイヤ画像を変更する
+;@VER		2015.6.15.000
+;*****************************
+;@MACRO	fg
+;@DESC	主に立ち絵（レイヤ名0〜2の画像レイヤ）変更用途だが背景（レイヤ名baseの画像レイヤ）にも特に問題なく使える
+;@ARG	（例）	引数は[lay]（画像レイヤ）、[trans]（ページ裏表を交換）の物を指定。
+;@ARG	（例）	立ち絵なら主にlayer、fn、pos、rule、time属性を使用すれば表現できる
+;*********************************************************
+
+;*********************************************************
+[macro name="fg" exist_err=false]
+	[img * layer=%layer|0]
+	[let name=t text=%time|500]	;省略した時の初期値
+	[let name=t text=0 cond="an.skip.enabled"]
+	[trans * layer=%layer|0 time=&t]
+	[wt]
+[endmacro]
+
+;*********************************************************
+[macro name="img" exist_err=false]
+	[lay * page=back visible=true rotation=%rotation|0 scale_x=%scale_x|1 cond="mp:fn != null"]
+	[clear_lay layer=%layer page=back cond="mp:fn == null"]
+	[lay * page=back visible=false cond="mp:fn == null"]
+[endmacro]
+
+;*********************************************************
+
+[return]

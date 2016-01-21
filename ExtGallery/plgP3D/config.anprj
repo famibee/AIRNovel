@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<first_script fn="miku"/>
+	<save_ns name="com.fc2.blog38.famibee.anbooks_made.P3D" localpath="/"/>
+
+	<search>
+		<path dir="mat" />
+	</search>
+	<window width="800" height="600"/>
+	<anbook prjtype="Plugin"
+			title="plgP3D"
+			creator="famibee"
+			cre_url="https://twitter.com/#!/ugainovel"
+			publisher="電子演劇部"
+			pub_url="http://famibee.blog38.fc2.com/"
+			detail="３Ｄデータを表示する。"
+
+			nocode="true"
+			pack_exc="\.swf\.cache">
+		<inc path="build.xml"/>
+		<inc path="Papervision3D_2.swc"/>
+		<inc path="prj-app.xml"/>
+		<inc path="source"/>
+		<inc path="SDK"/>
+	</anbook>
+</config>

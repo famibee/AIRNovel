@@ -1,0 +1,26 @@
+	[loadplugin fn="plgSFMT"]
+	[add_lay layer=絵 class=grp]
+	[add_lay layer=mes class=txt]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[lay layer="mes" visible=true max_col=20 b_top=185 b_height=100 b_color=0xFFFFFF b_alpha=0.5 r_size=12 layout='lineHeight="36" paddingTop="200" paddingLeft="30" fontSize="24" color="0x000000"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+*loop
+	[lay layer=絵 fn="dice" left=175 top=80 visible=true]
+	クリックで停止[l][r]
+
+	[let_random name=v max=6]	; 0〜5
+	[let name=v text=&v+1]		; 1〜6
+	
+	[lay layer=絵 fn="&'サイコロ' + v" left=&175-20 top=&80+16 visible=true]
+	停止！（クリックでもう一度）[l][er]
+
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

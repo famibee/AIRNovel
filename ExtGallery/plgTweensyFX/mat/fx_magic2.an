@@ -1,0 +1,32 @@
+	[add_lay layer=後絵 class=grp]
+	[loadplugin fn="plgTweensyFX"]
+;	[add_lay layer=絵 class=grp]
+	[add_lay layer=mes class=txt]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[lay layer="mes" visible=true max_col=10 b_top=185 b_height=100 b_color=0xFFFFFF b_alpha=0.5 r_size=12 layout='lineHeight="36" paddingTop="200" paddingLeft="25" fontSize="24" color="0x000000"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[lay layer=後絵 fn="ans.jpg" left=100 top=110 visible=true]
+;	[lay layer=絵 fn="ans.jpg" left=80 top=90 visible=true]
+
+*loop
+	[add_tsyfx name="効果" class="magic2" ex=150 ey=100]
+	魔法2[waitclick]　
+
+	[tsyfx name="効果" ey=200]
+	開始点[waitclick]　
+
+	[tsyfx name="効果" left=100]
+	移動[waitclick]　
+
+	[del_tsyfx name="効果"]
+	消去[waitclick][er]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

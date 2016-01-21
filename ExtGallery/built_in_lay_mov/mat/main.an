@@ -1,0 +1,44 @@
+	[add_lay layer=mes class=txt]
+	[add_lay layer=mov class=mov]
+	[add_lay layer=mov2 class=mov]
+	[add_lay layer=mov3 class=mov]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" layout='blockProgression="rl" lineHeight="36" paddingTop="15" paddingRight="15" fontSize="24" color="0xffffff"']
+
+	[loadplugin fn="plgTweensy"]	; トゥイーンアニメプラグイン
+
+	[lay layer=mov fn="kushimoto" visible=true width=480 height=480 loop=true]
+	[lay layer=mov2 fn="巫女" visible=true width=480 height=480 left=&const.flash.display.Stage.stageWidth/2 top=&const.flash.display.Stage.stageHeight/2 loop=true]
+	[lay layer=mov3 fn="那智の滝" visible=true width=480 height=480 loop=true]
+
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+*ループ処理
+	[tsy layer=mov time=2000 y=0 ease=Bounce.easeOut]
+	[tsy layer=mov2 time=2000 rotation="=0,90" ease=Back.easeInOut]
+		[wait_tsy layer=mov]
+		[wait_tsy layer=mov]	; 停止済みなら処理なし
+
+	[tsy layer=mov time=2000 x=&const.flash.display.Stage.stageWidth-320 ease=Bounce.easeIn]
+	[tsy layer=mov2 time=1000 scaleX="=0.3,1.2" scaleY="=0.3,1.15" ease=Elastic.easeOut]
+	[zoom_tsy layer=mov3 time=2000 visible=true ease=Back.easeOut]
+		[wait_tsy layer=mov arrive=true]
+
+	[tsy layer=mov time=2000 y=&const.flash.display.Stage.stageHeight-240]
+	[tsy layer=mov2 time=1000 alpha=0.5]
+		[wait_tsy layer=mov]
+
+	[tsy layer=mov time=2000 x=0 ease=Bounce.easeInOut]
+	[tsy layer=mov2 time=2000 alpha=1 ease=Bounce.easeOut]	
+	[zoom_tsy layer=mov3 time=2000 visible=false ease=Back.easeIn]
+		[wait_tsy layer=mov arrive=true]
+
+;	&l=l+1
+;	[let name=l text=0 cond=l>3]
+;	[jump label=*loop cond=l>0]
+;	[rewindvideo layer=mov]
+;	[resumevideo layer=mov]
+;	[rewindvideo layer=mov2]
+;	[resumevideo layer=mov2]
+[jump label=*ループ処理]

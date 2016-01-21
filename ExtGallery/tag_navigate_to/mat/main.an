@@ -1,0 +1,17 @@
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingRight="15" fontSize="24" color="0xffffff"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	　[link call=true label=*mail af_ul=false call=true]mail[endlink]
+	　[link call=true label=*twitter af_ul=false call=true]twitter[endlink][r]
+[s]
+
+*mail
+	[navigate_to url="mailto:dummy@airnovel.com?subject=%e4%bb%b6%e5%90%8d&body=%e6%9c%ac%e6%96%87%0D%0A%e6%94%b9%e8%a1%8c"]
+[return]
+
+*twitter
+	[navigate_to url="http://twitter.com/intent/tweet?hashtags=AIRNovel,ANEdit&text=%e3%82%80%e3%81%b2%e3%82%87%e3%83%bc"]
+[return]

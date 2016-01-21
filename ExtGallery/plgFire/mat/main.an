@@ -1,0 +1,31 @@
+	[add_lay layer=絵 class=grp]
+	[loadplugin fn="plgFire"]
+	[add_lay layer=mes class=txt]
+
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[lay layer="mes" visible=true max_col=20 b_top=205 b_height=80 b_color=0xFFFFFF b_alpha=0.5 r_size=12 layout='lineHeight="36" paddingTop="220" paddingLeft="15" fontSize="20" color="0x000000"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[lay layer=絵 fn="ans.jpg" left=100 top=50 visible=true]
+
+*loop
+	[fire_burn w=60 h=140 x=150 y=230]
+	燃焼開始[l][r]
+
+	[fire_clear]
+	燃焼停止[l][er]
+
+	[fire_burn w=60 h=140 x=150 y=180]
+	燃焼開始2[l][r]
+
+	[fire_clear]
+
+	燃焼停止[l][er]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

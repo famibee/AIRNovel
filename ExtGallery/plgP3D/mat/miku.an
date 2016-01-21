@@ -1,0 +1,38 @@
+	[add_lay layer=bg class=grp]
+	[loadplugin fn="plgP3D"]
+	[add_lay layer=mes class=txt]
+	[loadplugin fn="breakline"]
+	; Wキーでフルスクリーン（ESCキーで戻る）
+	[event global=true call=true key=w label=*toggle_full_screen]
+
+	[lay layer="mes" visible=true b_top=385 b_height=200 b_color=0xFFFFFF b_alpha=0.5 r_size=12 layout='lineHeight="36" paddingTop="400" paddingLeft="15" fontSize="24" color="0x000000"']
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[lay fn="miku_bg" layer=bg visible=true]
+	　三次元サンプル。[l][er]
+
+;	[p3d_lay visible=true left=0 top=0 width=800 height=600 color=0x8888aa]
+	[p3d_lay visible=true stats=true]
+
+	[p3d_add_cast name="girl" fn="miku" xyz="0,270,300" scale=25]
+
+*loop
+;	[p3d_camera type=free xyz="3,2,3" zoom=100]
+	[p3d_camera type=spring xyz="0,5,-15" look="0,5,10" mass=10 damping=10 stiffness=2 near=-10000 target="girl"]
+	　はちゅねどーん。[l][er]
+
+;	[p3d_camera type=free xyz="2.4,2,3" zoom=100]
+	[p3d_camera type=spring xyz="0,11,-8" look="0,5,10" mass=10 damping=10 stiffness=2 near=-10000 target="girl"]
+	　おでこ。[l][er]
+
+	[p3d_camera type=spring xyz="0,5,-10" look="0,5,10" mass=10 damping=10 stiffness=2 near=-10000 target="girl"]
+	　顔面。[l][er]
+
+	[p3d_camera type=spring xyz="0,5,-20" look="0,5,10" mass=10 damping=10 stiffness=2 near=-10000 target="girl"]
+	　離れたり。[l][er]
+[jump label=*loop]
+
+*toggle_full_screen
+	[toggle_full_screen][return]

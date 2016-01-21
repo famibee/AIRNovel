@@ -1,0 +1,16 @@
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" max_row=21 layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingLeft="15" fontSize="24" color="0xffffff"']
+
+	[call fn=ext_*]		; ext_**.anというスクリプトを全部コールする
+
+	&an.chkFontMode=false
+;*********************************************************
+; ゲーム本編
+	[for_call name=変数名 from=0 to=10 label=*ループ処理]
+[s]
+
+*ループ処理
+	[for_call_break cond="for_call_idx.変数名 == 5"]
+	&for_call_idx.変数名&
+;	[trace text=&for_call_idx.変数名]
+[return]

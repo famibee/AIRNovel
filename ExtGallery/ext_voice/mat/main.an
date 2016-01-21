@@ -1,0 +1,114 @@
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true max_col="30" max_row=21 layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingLeft="15" fontSize="24" color="0xffffff"']
+
+	[event global=true key=f5 label=*reload_script]
+		; F5を押すとその時点の実行スクリプト「のみ」リロード
+		; マクロなどはリロードしないので注意
+	[event global=true call=true key=v label=*repeat_voice]
+		; 「v」を押すと直前の声を再度再生
+
+	[call fn=ext_*]		; ext_**.anというスクリプトを全部コールする
+
+	&an.chkFontMode=false
+;*********************************************************
+; 以下の素材をお借りしました（_ _）
+;	ボイス素材：あみたろ氏
+;	http://www14.big.or.jp/~amiami/happy/
+;	ボイス素材：円海アルト氏
+;	http://maruming.daa.jp/voice/index.html
+;*********************************************************
+;	[lr]と書くのが面倒なので一文字マクロ
+[char2macro char=@ name=lr]
+;*********************************************************
+; ゲーム本編
+	[record_place]		; [reload_script]チェック用
+
+[span layout='color="0x00FFFF"']「素直なサンプル」[span][r]
+	[voice fn=ohhayoo_01]
+	おっはよー♪@
+	[voice fn=anzennunten_01]
+	起動しました！[wait time=1000 canskip=true][r]
+	今日も安全運転よろしくお願いします@
+[er][record_place]
+
+
+;*********************************************************
+;	こういうマクロを作ると便利かも
+;*********************************************************
+; マクロ 連番ファイル名の音声再生＋α
+;*********************************************************
+[macro name="voice2＋α" exist_err=false]
+	[voice2]		; 音声再生
+	「[ch text=%text]」	; じわじわ文字を出す
+	[lr]			; 音声再生終了を待ち、クリック待ち、改行
+		; [lr]や[pr]を含めるかどうかは好み
+[endmacro]
+
+;	[voice2＋α]〜と書くのが面倒なので括弧マクロを活用
+[bracket2macro text="『』" name=voice2＋α]
+;*********************************************************
+
+[span layout='color="0x00FFFF"']「自動連番式」[span][r]
+[voice_reset]
+	[voice_set_chr name=あみたろ]
+	『〇』
+	『壱』
+	『弐』
+	『参』
+	『四』
+	『五』
+[er][record_place]
+
+
+;*********************************************************
+;	こういうマクロを作ると便利かも
+;*********************************************************
+; マクロ 連番音声の人物指定＋α
+[macro name="voice_set_chr名前付き" exist_err=false]
+	[voice_set_chr name=%text]
+	[ch text=%text]：
+		; この行を改造して顔アイコン変更とか名前表示とか
+[endmacro]
+
+; 括弧マクロ
+[bracket2macro text="〔〕" name=voice_set_chr名前付き]
+;*********************************************************
+;	以下はそのサンプル
+
+[span layout='color="0x00FFFF"']「自動連番＆複数人物」[span][r]
+[voice_reset]
+	〔あみたろ〕『〇』
+	〔円海アルト〕『かかってらっしゃい？』
+	〔あみたろ〕『壱』
+	〔円海アルト〕『まだよ！』
+	〔あみたろ〕『弐』
+	〔あみたろ〕『参』
+	〔円海アルト〕『これはどう！？』
+	〔あみたろ〕『四』
+	〔円海アルト〕『今度はこちらから！』
+	〔あみたろ〕『五』
+	〔円海アルト〕『おのれえぇ！ 』
+[er][record_place]
+
+[span layout='color="0x00FFFF"']「再生待ち」[span][r]
+	[voice fn=rusuden_02]
+	ただいま、電話に出られません。[wait time=1700 canskip=true][r]
+	ご用の方は、発信音のあとに、[wait time=3200 canskip=true][r]
+	お名前と、お電話番号、[wait time=2000 canskip=true][r]
+	ご用件をお願いします。[vw]
+[er]
+;[record_place]
+
+	[voice fn=hajimemasite_01]
+	はじめまして[vw][r]
+	[voice fn=yoroshiku_01]
+	よろしくお願いしまーす@
+[s]
+;*********************************************************
+
+*repeat_voice
+	[repeat_voice]
+	[return]
+
+*reload_script
+[reload_script]

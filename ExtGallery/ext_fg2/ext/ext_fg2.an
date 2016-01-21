@@ -1,0 +1,136 @@
+;*********************************************************
+;@EXT_DESC	概要：立ち絵の扱いが簡単な[fg]
+;@VER		2015.6.15.000
+;*********************************************************
+
+;*********************************************************
+;	定数
+; 立ち絵表示範囲の右端と左端
+&save:an.fg2.xb = 0
+&save:an.fg2.xe = const.flash.display.Stage.stageWidth
+&save:an.fg2.max_lay = 3	; 最大レイヤ数（以下で自動調査）
+
+	[add_lay layer=0 class=grp cond=!const.an.lay.0]
+	[add_lay layer=1 class=grp cond=!const.an.lay.1]
+	[add_lay layer=2 class=grp cond=!const.an.lay.2]
+*max_lay_lp
+[if exp="const.an.lay[save:an.fg2.max_lay]"]
+	&save:an.fg2.max_lay = save:an.fg2.max_lay + 1
+	[jump label=*max_lay_lp]
+[endif]
+
+
+;*********************************************************
+; 以降はノータッチで
+	[loadplugin fn=plgTweensy join=true cond="!const.an.plg.plgTweensy && !const.an.plg.plgBetweenAS3"]
+
+[macro name="fg" exist_err=false]
+	[img * layer=%layer|0]
+	[let name=t text=%time|500]	;省略した時の初期値
+	[let name=t text=0 cond="an.skip.enabled"]
+	[trans * layer=%layer|0 time=&t]
+	[wt]
+[endmacro]
+[macro name="img" exist_err=false]
+	[lay * page=back visible=true rotation=%rotation|0 scale_x=%scale_x|1 cond="mp:fn != null"]
+	[clear_lay layer=%layer page=back cond="mp:fn == null"]
+	[lay * page=back visible=false cond="mp:fn == null"]
+[endmacro]
+
+;*********************************************************
+&save:an.fg2.lays = ""
+[macro name="fg2"]
+	[if exp="mp:del"]
+		[let name=a text="&save:an.fg2.hu[mp:del]"]
+		[let name="&'save:an.fg2.hu.'+ mp:del" text=null]
+		[let name="&'save:an.fg2.hu.'+ mp:del +'.pos'" text=null]
+		[let_replace name=save:an.fg2.lays text=&save:an.fg2.lays@str val="" reg=&a cast=str]
+;[trace text="&'del lays:'+ save:an.fg2.lays@str +' a:'+ a"]
+		[fg layer=&a]
+		[break_macro]
+	[endif]
+
+	[let_replace name=h text=%fn val="" reg="_.+" cast=str]
+;[trace text="&'== h:'+ h +' @:'+ save:an.fg2.hu[h]"]
+	[if exp="save:an.fg2.hu[h] != null"]
+		[let name=a text="&save:an.fg2.hu[h]"]
+		[fg layer=&a pos="&save:an.fg2.hu[a].pos" *]
+		[break_macro]
+	[endif]
+
+	&fn = mp:fn
+	&face = mp:face
+	[let name=time text=%time|500]	;省略した時の初期値
+	[let name=time text=0 cond="an.skip.enabled"]
+	&ease = Cubic.easeOutbic
+	[let name=add text=%add|"cr"]
+
+	&use_lay = null
+	[for_call name=l from=0 to=&save:an.fg2.max_lay-1 label=*fg2_add]
+;[trace text="&'lays:'+ save:an.fg2.lays@str +' use_lay:'+ use_lay +' add:'+ add"]
+	[if exp="use_lay == null"]
+		[trace text="&'最大レイヤ数'+ save:an.fg2.max_lay +'を越えました。これ以上同時に立ち絵を表示したい場合、レイヤを増やして下さい'"]
+		[break_macro]
+	[endif]
+
+	[let name="&'save:an.fg2.hu.'+ h" text=&use_lay]
+;[trace text="&'-- h:'+ h +' @:'+ save:an.fg2.hu[h]"]
+
+; 移動＆フェードイン
+	[let_length name=cnt text=&save:an.fg2.lays@str]
+	&wh = (save:an.fg2.xe - save:an.fg2.xb)/cnt/2
+;[trace text="&'== cnt:'+ cnt +' wh:'+ wh"]
+	[for_call name=l from=0 to=&cnt-1 label=*fg2_dsp]
+	[for_call name=l from=0 to=&cnt-1 label=*fg2_dspw]
+[endmacro]
+
+
+[return]
+
+
+;*********************************************************
+*fg2_add
+	[let_index_of name=a text=&save:an.fg2.lays@str val=&for_call_idx.l]
+	[return cond="a!=-1"]
+
+	&use_lay = for_call_idx.l
+	[if exp="add=='l'"]
+		&save:an.fg2.lays = use_lay@str + save:an.fg2.lays@str = str
+	[elsif exp="add=='r'"]
+		&save:an.fg2.lays = save:an.fg2.lays@str + use_lay@str = str
+	[else]
+		[let_length name=len text=&save:an.fg2.lays@str]
+		[if exp="len % 2 == 0"]
+			&bl = len/2 = uint
+		[elsif exp="add=='cl'"]
+			&bl = (len-1)/2 = uint
+		[else]
+			&bl = (len-1)/2+1 = uint
+		[endif]
+		[let_substr name=b text=&save:an.fg2.lays@str pos=0 len=&bl cast=str]
+		[let_substr name=a text=&save:an.fg2.lays@str pos=&bl len=all cast=str]
+		&save:an.fg2.lays = b@str + use_lay@str + a@str = str
+	[endif]
+[for_call_break]
+[return]
+;*********************************************************
+*fg2_dsp
+	&l = for_call_idx.l
+	[let_char_at name=a text=&save:an.fg2.lays@str pos=&l]
+;[trace text="&'---- a:'+ a +' lays:'+ save:an.fg2.lays@str + ' l:'+ l"]
+	&x = save:an.fg2.xb +wh +wh*2*l = int
+	[let name="&'save:an.fg2.hu.'+ a +'.pos'" text=&x]
+	[if exp="const.an.lay[a].fore.visible"]
+;[trace text="&'== v:t a:'+ a +' tsy:'"]
+		[tsy layer=&a time=&time x="&x -const.an.lay[a].fore.width/2" ease=&ease]
+	[else]
+;[trace text="&'== v:f a:'+ a +' fg:'"]
+		[lay layer=&a pos=&x fn=&fn face=&face alpha=0 visible=true]
+		[tsy layer=&a time=&time alpha=1]
+	[endif]
+[return]
+;*********************************************************
+*fg2_dspw
+	[let_char_at name=a text=&save:an.fg2.lays@str pos=&for_call_idx.l]
+	[wait_tsy layer=&a arrive=true backlay=true]
+[return]

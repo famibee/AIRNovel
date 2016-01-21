@@ -1,0 +1,13 @@
+<config>
+  <first_script fn="main"/>
+  <save_ns name="com.fc2.web.famibee.Fog" localpath="/"/>
+  <search>
+    <path dir="mat"/>
+    <path dir="plg"/>
+  </search>
+  <coder len="0x360"/>
+  <window width="640" height="480"/>
+  <anbook prjtype="Plugin" title="plgFog" creator="瀬戸愛羅" cre_url="https://twitter.com/#!/SetoAira" publisher="AIRNovelをさわろう!" pub_url="http://ansawaro.wy5.org/" detail="雲や霧の表現をする為のplgFogのサンプルです。&#xA;追加タグ等の説明のreadmeとソースファイルはetcフォルダにあります。" nocode="true" pack_exc="\.swf\.cache">
+    <inc path="source"/>
+  </anbook>
+</config>

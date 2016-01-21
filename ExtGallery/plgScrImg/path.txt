@@ -1,0 +1,1 @@
+{"yun_2352":{"jpg":"bgimage/yun_2352.jpg"},"yun_1184":{"jpg":"bgimage/yun_1184.jpg"},"plgScrImg":{"cache":"mat/plgScrImg.swf.cache","swf":"mat/plgScrImg.swf"},"yun_2384":{"jpg":"bgimage/yun_2384.jpg"},"yun_1317":{"jpg":"bgimage/yun_1317.jpg"},"main":{"an":"mat/main.an"}}

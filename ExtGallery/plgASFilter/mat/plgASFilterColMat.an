@@ -1,0 +1,84 @@
+;#USE-FONT	VL_Gothic
+	[add_lay layer=base class=grp]
+	[add_lay layer=mes class=txt]
+	[lay layer="mes" visible=true b_alpha=0 r_size=12 r_align="121" layout='blockProgression="tb" lineHeight="36" paddingTop="15" paddingLeft="15" fontSize="24" color="0xffffff" fontFamily="ＶＬゴシックcff" fontLookup="embeddedCFF"']
+	[loadplugin fn="plgASFilter" join=true]
+	[loadplugin fn="VL_Gothic" join=true]
+
+	[event global=true key=f5 label=*reload_script cond="const.flash.system.Capabilities.isDebugger"]
+	[macro name="plc"][p][er][endmacro][char2macro char=¥ name=plc]
+
+;*********************************************************
+; ゲーム本編
+	[record_place]		; [reload_script]チェック用
+
+	[lay layer=base fn=bg page=back visible=true]
+
+*loop
+	通常
+	[clear_asfilter layer=base page=back]
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+	彩度変更
+	[clear_asfilter layer=base page=back]
+	[add_asfilter layer=base page=back filter=color_matrix
+		f_matrix='2,-1,0,0,0, -1,2,0,0,0, 0,-1,2,0,0, 0,0,0,1,0']
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+	グレー
+	[clear_asfilter layer=base page=back]
+	[add_asfilter layer=base page=back filter=color_matrix
+		f_matrix='0.333,0.333,0.333,0,0, 0.333,0.333,0.333,0,0, 0.333,0.333,0.333,0,0, 0,0,0,1,0']
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+	コントラスト追加
+	[clear_asfilter layer=base page=back]
+	[add_asfilter layer=base page=back filter=color_matrix
+		f_matrix='1.5,0,0,0,-40, 0,1.5,0,0,-40, 0,0,1.5,0,-40, 0,0,0,1,0']
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+	ネガ
+	[clear_asfilter layer=base page=back]
+	[add_asfilter layer=base page=back filter=color_matrix
+		f_matrix='-1,0,0,0,255, 0,-1,0,0,255, 0,0,-1,0,255, 0,0,0,1,0']
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+	セピア
+	[clear_asfilter layer=base page=back]
+	[add_asfilter layer=base page=back filter=color_matrix
+		f_matrix='0.9,0,0,0,0, 0,0.7,0,0,0, 0,0,0.4,0,0, 0,0,0,1,0']
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+	色相変更（赤→青、緑→赤、青→緑）
+	[clear_asfilter layer=base page=back]
+	[add_asfilter layer=base page=back filter=color_matrix
+		f_matrix='0,1,0,0,0, 0,0,1,0,0, 1,0,0,0,0, 0,0,0,1,0']
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+	色相変更（赤青反転）
+	[clear_asfilter layer=base page=back]
+	[add_asfilter layer=base page=back filter=color_matrix
+		f_matrix='0,0,1,0,0, 0,1,0,0,0, 1,0,0,0,0, 0,0,0,1,0']
+	[trans layer=base time=500]
+	[wt]
+	¥
+
+[jump label=*loop]
+;*********************************************************
+
+*reload_script
+[reload_script]
