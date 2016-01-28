@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
+	<!-- Mac update -->
+	<dmg>
+		<version>5.85</version>
+		<url>https://github.com/famibee/AIRNovel/blob/master/ANBooks/ANBooks.dmg?raw=true</url>
+	<description><![CDATA[
+5.85
+	* upd：AIR 20ベースに更新
+	* bug：[BGM]マクロのクロスフェード改良版でFキースキップ時にエラーが起こる場合
+5.84
+	* bug：テンプレが反映されない場合があった件
+5.83
+	* bug：[bgm]マクロ修正
+	* upd：AIRNovel 5.54に更新
+]]></description>
+	</dmg>
+
+	<!-- Win update -->
+	<exe>
+		<version>5.85</version>
+		<url>https://github.com/famibee/AIRNovel/blob/master/ANBooks/ANBooks.exe?raw=true</url>
+	<description><![CDATA[
+5.85
+	* upd：AIR 20ベースに更新
+	* bug：[BGM]マクロのクロスフェード改良版でFキースキップ時にエラーが起こる場合
+5.84
+	* bug：テンプレが反映されない場合があった件
+5.83
+	* bug：[bgm]マクロ修正
+	* upd：AIRNovel 5.54に更新
+]]></description>
+	</exe>
+</update>

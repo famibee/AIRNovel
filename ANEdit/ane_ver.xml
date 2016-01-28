@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
+	<versionNumber>0.65</versionNumber>
+	<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.air?raw=true</url>
+	<description><![CDATA[
+0.70
+	* chg：node-webkitベースに。高速化・HTMLも高度な動作が可能に。
+	* chg：配布実行ファイルを.air→OS別実行形式（dmg,exe）に。
+	* chg：イージー：スクリプトの実行済み位置のマクロをクリックすると、ゲームをそこに戻して一時停止するように。
+	* add：自動path.txt作成
+	* upd：AIRNovel 4.15に更新。
+]]></description>
+</update>

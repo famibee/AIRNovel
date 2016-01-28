@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
+	<versionNumber>5.54</versionNumber>
+	<url>https://github.com/famibee/AIRNovel/blob/master/UnderCherry/uc.air?raw=true</url>
+	<description><![CDATA[
+5.54
+	* add：[playbgm]にvolume属性追加
+5.53
+	* bug：影響が大きいため、[fadese][fadebgm]により変数sys:const.an.sound.BGM.volumeなどを変更しないよう修正
+5.52
+	* add：新タグ[xchgbuf]（再生トラックの交換）二つのバッファを交換する
+	* add：[fadese][fadebgm]にdelay属性追加。
+	* bug：[playbgm * join=false]直後に[wb]するとエラーになっていた件
+	* bug：[fadebgm]せず[wb]すると停止する不具合
+	* bug：[fadese][fadebgm]により変数sys:const.an.sound.BGM.volumeなどが変更されていない不具合
+5.51
+	* add：文字レイヤ[lay]に背景をクリアするback_clear属性追加
+			逆に[clear_lay]ではそれらをクリアしない件、マニュアルに追記
+	* bug：ムービーレイヤ不具合、無関係の[trans]でセキュリティエラー
+			再生終了後に[trans]したとき、draw()でリソース解放Objのdraw()を
+			していた。リソースリーク。
+5.50
+	* bug：インライン画像のルビでエラーになる不具合
+]]></description>
+</update>
