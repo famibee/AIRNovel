@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
 	<versionNumber>0.65</versionNumber>
-	<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.air%3fraw=true</url>
+	<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.air%3fraw%3dtrue</url>
 	<description><![CDATA[
 0.70
 	* chg：node-webkitベースに。高速化・HTMLも高度な動作が可能に。

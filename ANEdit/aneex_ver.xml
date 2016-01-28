@@ -3,7 +3,7 @@
 	<!-- Mac update -->
 	<dmg>
 		<version>0.137</version>
-		<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.dmg%3fraw=true</url>
+		<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.dmg%3fraw%3dtrue</url>
 	<description><![CDATA[
 0.137
 	* upd：ネット素材をGitHub/e-nautiaに移行中（更新非推奨）
@@ -17,7 +17,7 @@
 	<!-- Win update -->
 	<exe>
 		<version>0.137</version>
-		<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.exe%3fraw=true</url>
+		<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.exe%3fraw%3dtrue</url>
 	<description><![CDATA[
 0.137
 	* upd：ネット素材をGitHub/e-nautiaに移行中（更新非推奨）
