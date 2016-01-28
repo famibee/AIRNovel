@@ -3,7 +3,7 @@
 	<!-- Mac update -->
 	<dmg>
 		<version>0.137</version>
-		<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.dmg?raw=true</url>
+		<url>https://github.com/famibee/AIRNovel/blob/master/ANEdit/ANEdit.dmg%3fraw=true</url>
 	<description><![CDATA[
 0.137
 	* upd：ネット素材をGitHub/e-nautiaに移行中（更新非推奨）
