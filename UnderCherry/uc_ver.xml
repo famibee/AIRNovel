@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.56</versionNumber>
-	<url>https://raw.githubusercontent.com/famibee/AIRNovel/blob/master/UnderCherry/uc.air</url>
+	<versionNumber>5.57</versionNumber>
+	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
-5.55〜5.56
+5.55〜5.57
 	* upd：ネット素材をGitHub/e-nautiaに移行中（更新非推奨）
 5.54
 	* add：[playbgm]にvolume属性追加
