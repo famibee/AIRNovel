@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
+	<!-- Mac update -->
+	<dmg>
+		<version>0.136</version>
+		<url>https://2e5360416366f28c074ce9ece0b7cc30a0ed7f3b.googledrive.com/host/0B6pZS4YMqJ_sNVJZZmpKNzhvU2s/ANEdit.dmg</url>
+	<description><![CDATA[
+0.136
+	* upd：AIRNovel 5.54に更新
+0.135
+	* upd：AIRNovel 5.53に更新
+0.134
+	* upd：AIRNovel 5.52に更新
+]]></description>
+	</dmg>
+
+	<!-- Win update -->
+	<exe>
+		<version>0.136</version>
+		<url>https://2e5360416366f28c074ce9ece0b7cc30a0ed7f3b.googledrive.com/host/0B6pZS4YMqJ_sNVJZZmpKNzhvU2s/ANEdit.exe</url>
+	<description><![CDATA[
+0.136
+	* upd：AIRNovel 5.54に更新
+0.135
+	* upd：AIRNovel 5.53に更新
+0.134
+	* upd：AIRNovel 5.52に更新
+]]></description>
+	</exe>
+</update>
