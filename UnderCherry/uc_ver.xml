@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
 	<versionNumber>5.57</versionNumber>
-	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
+	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
 5.55〜5.57
 	* upd：ネット素材をGitHub/e-nautiaに移行中（更新非推奨）
