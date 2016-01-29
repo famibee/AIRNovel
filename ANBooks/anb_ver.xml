@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.91</versionNumber>
+	<versionNumber>5.92</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
-5.86〜5.91
-	* upd：ネット素材をGitHubなどに移行中６
+5.86〜5.92
+	* upd：ネット素材をGitHub/Copyに移行
 5.85
 	* upd：AIR 20ベースに更新
 	* bug：[BGM]マクロのクロスフェード改良版でFキースキップ時にエラーが起こる場合

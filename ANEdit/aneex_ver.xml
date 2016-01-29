@@ -2,11 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>0.142</version>
+		<version>0.143</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANEdit/ANEdit.dmg</url>
 	<description><![CDATA[
-0.137〜0.142
-	* upd：ネット素材をGitHubなどに移行中６
+0.137〜0.143
+	* upd：ネット素材をGitHub/Copyに移行
 0.136
 	* upd：AIRNovel 5.54に更新
 0.135
@@ -16,11 +16,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>0.142</version>
+		<version>0.143</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANEdit/ANEdit.exe</url>
 	<description><![CDATA[
-0.137〜0.142
-	* upd：ネット素材をGitHubなどに移行中６
+0.137〜0.143
+	* upd：ネット素材をGitHub/Copyに移行
 0.136
 	* upd：AIRNovel 5.54に更新
 0.135

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.60</versionNumber>
+	<versionNumber>5.61</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
-5.55〜5.60
-	* upd：ネット素材をGitHubなどに移行中６
+5.55〜5.61
+	* upd：ネット素材をGitHub/Copyに移行
 5.54
 	* add：[playbgm]にvolume属性追加
 5.53
