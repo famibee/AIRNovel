@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.92</version>
+		<version>5.93</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.93
+	* upd：ネット素材をGitHub/OneDriveに移行
 5.86〜5.92
 	* upd：ネット素材をGitHub/Copyに移行
 5.85
@@ -17,9 +19,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.92</version>
+		<version>5.93</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.93
+	* upd：ネット素材をGitHub/OneDriveに移行
 5.86〜5.92
 	* upd：ネット素材をGitHub/Copyに移行
 5.85
