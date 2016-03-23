@@ -2,9 +2,15 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.94</version>
+		<version>5.95</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.95
+	* upd：内部JSライブラリを更新
+	* upd：内部構造改善
+	* upd：ビルド環境設定画面、少し見やすく
+	* bug：Chrome更新によりログが見れなくなっていた点修正
+	* bug：フォント出力先指定できなくなっていた点修正、オプションボタン化
 5.94
 	* upd：開発環境を ApacheFlex 4.15.0 ベースに
 	* bug：build.xml内で問題を起こす場合があるため、パスワード生成で【$】禁止に
@@ -17,9 +23,15 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.94</version>
+		<version>5.95</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.95
+	* upd：内部JSライブラリを更新
+	* upd：内部構造改善
+	* upd：ビルド環境設定画面、少し見やすく
+	* bug：Chrome更新によりログが見れなくなっていた点修正
+	* bug：フォント出力先指定できなくなっていた点修正、オプションボタン化
 5.94
 	* upd：開発環境を ApacheFlex 4.15.0 ベースに
 	* bug：build.xml内で問題を起こす場合があるため、パスワード生成で【$】禁止に
