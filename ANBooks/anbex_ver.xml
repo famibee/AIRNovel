@@ -2,9 +2,12 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.95</version>
+		<version>5.96</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.96
+	* bug：build_base.xml更新ミス
+	* bug：build_base.xmlが更新されないデグレードしてた
 5.95
 	* upd：内部JSライブラリを更新
 	* upd：内部構造改善
@@ -14,18 +17,17 @@
 5.94
 	* upd：開発環境を ApacheFlex 4.15.0 ベースに
 	* bug：build.xml内で問題を起こす場合があるため、パスワード生成で【$】禁止に
-5.93
-	* upd：ネット素材をGitHub/OneDriveに移行
-5.86〜5.92
-	* upd：ネット素材をGitHub/Copyに移行
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.95</version>
+		<version>5.96</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.96
+	* bug：build_base.xml更新ミス
+	* bug：build_base.xmlが更新されないデグレードしてた
 5.95
 	* upd：内部JSライブラリを更新
 	* upd：内部構造改善
@@ -35,10 +37,6 @@
 5.94
 	* upd：開発環境を ApacheFlex 4.15.0 ベースに
 	* bug：build.xml内で問題を起こす場合があるため、パスワード生成で【$】禁止に
-5.93
-	* upd：ネット素材をGitHub/OneDriveに移行
-5.86〜5.92
-	* upd：ネット素材をGitHub/Copyに移行
 ]]></description>
 	</exe>
 </update>
