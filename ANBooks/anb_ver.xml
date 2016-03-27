@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.96</versionNumber>
+	<versionNumber>5.97</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.97
+	* chg：「ビルド時にAIRNovelソースを最新に自動更新」の設定を、SDK/〜/an_sdk.propertiesの有無では無くbuild.xmlのプロパティに
+	* add：oggo自動変換、ON/OFFできるように。
 5.96
 	* bug：build_base.xml更新ミス
 	* bug：build_base.xmlが更新されないデグレードしてた
@@ -12,8 +15,5 @@
 	* upd：ビルド環境設定画面、少し見やすく
 	* bug：Chrome更新によりログが見れなくなっていた点修正
 	* bug：フォント出力先指定できなくなっていた点修正、オプションボタン化
-5.94
-	* upd：開発環境を ApacheFlex 4.15.0 ベースに
-	* bug：build.xml内で問題を起こす場合があるため、パスワード生成で【$】禁止に
 ]]></description>
 </update>
