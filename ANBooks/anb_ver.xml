@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.97</versionNumber>
+	<versionNumber>5.98</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.98
+	* bug：build.xml上部にゴミが増えていく不具合
 5.97
 	* chg：「ビルド時にAIRNovelソースを最新に自動更新」の設定を、SDK/〜/an_sdk.propertiesの有無では無くbuild.xmlのプロパティに
 	* add：oggo自動変換、ON/OFFできるように。

@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.97</version>
+		<version>5.98</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.98
+	* bug：build.xml上部にゴミが増えていく不具合
 5.97
 	* chg：「ビルド時にAIRNovelソースを最新に自動更新」の設定を、SDK/〜/an_sdk.propertiesの有無では無くbuild.xmlのプロパティに
 	* add：oggo自動変換、ON/OFFできるように。
@@ -22,9 +24,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.97</version>
+		<version>5.98</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.98
+	* bug：build.xml上部にゴミが増えていく不具合
 5.97
 	* chg：「ビルド時にAIRNovelソースを最新に自動更新」の設定を、SDK/〜/an_sdk.propertiesの有無では無くbuild.xmlのプロパティに
 	* add：oggo自動変換、ON/OFFできるように。
