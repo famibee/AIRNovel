@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.98</version>
+		<version>5.99</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.99
+	* bug：build.xml上部修正
 5.98
 	* bug：build.xml上部にゴミが増えていく不具合
 5.97
@@ -24,9 +26,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.98</version>
+		<version>5.99</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.99
+	* bug：build.xml上部修正
 5.98
 	* bug：build.xml上部にゴミが増えていく不具合
 5.97

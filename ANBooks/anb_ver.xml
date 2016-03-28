@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.98</versionNumber>
+	<versionNumber>5.99</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.99
+	* bug：build.xml上部修正
 5.98
 	* bug：build.xml上部にゴミが増えていく不具合
 5.97
