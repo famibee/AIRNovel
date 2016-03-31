@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.99</version>
+		<version>5.100</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.100
+	* bug：プロジェクトを新規作成できない不具合
 5.99
 	* bug：build.xml上部修正
 5.98
@@ -26,9 +28,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.99</version>
+		<version>5.100</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.100
+	* bug：プロジェクトを新規作成できない不具合
 5.99
 	* bug：build.xml上部修正
 5.98
