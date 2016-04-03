@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.103</version>
+		<version>5.104</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.104
+	* upd：AIRnovel 5.63に更新
 5.103
 	* upd：AIRnovel 5.62に更新
 	* bug：【ビルド時にAIRNovelソースを最新に自動更新】オンオフが正常に動作していなかった不具合
@@ -15,9 +17,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.103</version>
+		<version>5.104</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.104
+	* upd：AIRnovel 5.63に更新
 5.103
 	* upd：AIRnovel 5.62に更新
 	* bug：【ビルド時にAIRNovelソースを最新に自動更新】オンオフが正常に動作していなかった不具合

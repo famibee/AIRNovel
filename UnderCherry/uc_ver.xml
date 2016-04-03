@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.62</versionNumber>
+	<versionNumber>5.63</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+5.63
+	* bug：5.62改修で、動作が変わってしまうのでレイヤ状態クリアは取りやめ
 5.62
 	* upd：画像レイヤへの[lay]でfn・face指定されていても、ロード済fn・faceと同じなら「レイヤ状態のクリアだけして画像は再ロードしない」ように（パフォーマンス改善）
 	* bug：文字レイヤが無い場合に[reload_script]するとエラーになる不具合
-5.55〜5.61
-	* upd：ネット素材をGitHub/Copyに移行
 ]]></description>
 </update>
