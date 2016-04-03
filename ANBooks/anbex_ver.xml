@@ -2,61 +2,27 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.102</version>
+		<version>5.103</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.103
+	* upd：AIRnovel 5.62に更新
+	* bug：【ビルド時にAIRNovelソースを最新に自動更新】オンオフが正常に動作していなかった不具合
 5.102
 	* bug：サーバーflexsdkファイルのDL Unzipにまつわる不具合
-5.101
-	* bug：詳細画面に入るとAlconに出るエラーになる不具合
-5.100
-	* bug：プロジェクトを新規作成できない不具合
-5.99
-	* bug：build.xml上部修正
-5.98
-	* bug：build.xml上部にゴミが増えていく不具合
-5.97
-	* chg：「ビルド時にAIRNovelソースを最新に自動更新」の設定を、SDK/〜/an_sdk.propertiesの有無では無くbuild.xmlのプロパティに
-	* add：oggo自動変換、ON/OFFできるように。
-5.96
-	* bug：build_base.xml更新ミス
-	* bug：build_base.xmlが更新されないデグレードしてた
-5.95
-	* upd：内部JSライブラリを更新
-	* upd：内部構造改善
-	* upd：ビルド環境設定画面、少し見やすく
-	* bug：Chrome更新によりログが見れなくなっていた点修正
-	* bug：フォント出力先指定できなくなっていた点修正、オプションボタン化
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.102</version>
+		<version>5.103</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.103
+	* upd：AIRnovel 5.62に更新
+	* bug：【ビルド時にAIRNovelソースを最新に自動更新】オンオフが正常に動作していなかった不具合
 5.102
 	* bug：サーバーflexsdkファイルのDL Unzipにまつわる不具合
-5.101
-	* bug：詳細画面に入るとAlconに出るエラーになる不具合
-5.100
-	* bug：プロジェクトを新規作成できない不具合
-5.99
-	* bug：build.xml上部修正
-5.98
-	* bug：build.xml上部にゴミが増えていく不具合
-5.97
-	* chg：「ビルド時にAIRNovelソースを最新に自動更新」の設定を、SDK/〜/an_sdk.propertiesの有無では無くbuild.xmlのプロパティに
-	* add：oggo自動変換、ON/OFFできるように。
-5.96
-	* bug：build_base.xml更新ミス
-	* bug：build_base.xmlが更新されないデグレードしてた
-5.95
-	* upd：内部JSライブラリを更新
-	* upd：内部構造改善
-	* upd：ビルド環境設定画面、少し見やすく
-	* bug：Chrome更新によりログが見れなくなっていた点修正
-	* bug：フォント出力先指定できなくなっていた点修正、オプションボタン化
 ]]></description>
 	</exe>
 </update>
