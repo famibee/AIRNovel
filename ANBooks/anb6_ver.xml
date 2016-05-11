@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
+	<!-- Mac update -->
+	<dmg>
+		<version>5.905</version>
+		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
+	<description><![CDATA[
+5.905
+	* make：素材暗号化
+	* make：自動更新機能
+5.105○次世代 ANBooks beta 2016/05/10 公開
+5.105○次世代 ANBooks beta 2016/05/08 公開
+	* info：※※【念のためunpackフォルダ以下はどこかに退避して下さい】※※
+	* info：※※【config.anprj、build.xml、prj-app.xmlの記述を統一するような変更します】※※
+	* info：【テンプレからの新規作成】がほとんど未実装
+	* info：その他未知の不具合・未実装機能アリ。不具合報告大歓迎です
+	* new：config.anprj、build.xml、prj-app.xmlのファイル変更を監視、直接エディタで編集して反映できるように（config〜とprj-app〜の同項目では、前者優先）
+	* new：詳細モードで変数変化を表示するように。
+		（前回停止時との比較。mp:やconst系は一部略）
+	* chg：詳細モードで変数説明をオンマウスのtips表示するように
+]]></description>
+	</dmg>
+
+	<!-- Win update -->
+	<exe>
+		<version>5.905</version>
+		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
+	<description><![CDATA[
+5.905
+	* make：素材暗号化
+	* make：自動更新機能
+5.105○次世代 ANBooks beta 2016/05/10 公開
+5.105○次世代 ANBooks beta 2016/05/08 公開
+	* info：※※【念のためunpackフォルダ以下はどこかに退避して下さい】※※
+	* info：※※【config.anprj、build.xml、prj-app.xmlの記述を統一するような変更します】※※
+	* info：【テンプレからの新規作成】がほとんど未実装
+	* info：その他未知の不具合・未実装機能アリ。不具合報告大歓迎です
+	* new：config.anprj、build.xml、prj-app.xmlのファイル変更を監視、直接エディタで編集して反映できるように（config〜とprj-app〜の同項目では、前者優先）
+	* new：詳細モードで変数変化を表示するように。
+		（前回停止時との比較。mp:やconst系は一部略）
+	* chg：詳細モードで変数説明をオンマウスのtips表示するように
+]]></description>
+	</exe>
+</update>
