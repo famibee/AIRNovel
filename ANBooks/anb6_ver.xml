@@ -2,33 +2,23 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.906</version>
+		<version>5.907</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
-5.906
-5.905
-	* make：素材暗号化
-	* make：自動更新機能
-5.105○次世代 ANBooks beta 2016/05/08 公開
-	* info：※※【念のためunpackフォルダ以下はどこかに退避して下さい】※※
-	* info：※※【config.anprj、build.xml、prj-app.xmlの記述を統一するような変更します】※※
-	* info：（略）
+5.907
+	* make：log.htm 更新機能
+	* bug：新規作成関連
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.906</version>
+		<version>5.907</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
-5.906
-5.905
-	* make：素材暗号化
-	* make：自動更新機能
-5.105○次世代 ANBooks beta 2016/05/08 公開
-	* info：※※【念のためunpackフォルダ以下はどこかに退避して下さい】※※
-	* info：※※【config.anprj、build.xml、prj-app.xmlの記述を統一するような変更します】※※
-	* info：（略）
+5.907
+	* make：log.htm 更新機能
+	* bug：新規作成関連
 ]]></description>
 	</exe>
 </update>
