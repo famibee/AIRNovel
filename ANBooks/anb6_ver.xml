@@ -2,9 +2,13 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.907</version>
+		<version>5.908</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.908
+	* bug：シンプルプロジェクトでビルド失敗
+	* upd：更新確認結果が分かり次第、通知やバウンドを
+	* bug：基本AIRのサイズ変更と中のHTML表示を連動
 5.907
 	* make：log.htm 更新機能
 	* bug：新規作成関連
@@ -13,9 +17,13 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.907</version>
+		<version>5.908</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.908
+	* bug：シンプルプロジェクトでビルド失敗
+	* upd：更新確認結果が分かり次第、通知やバウンドを
+	* bug：基本AIRのサイズ変更と中のHTML表示を連動
 5.907
 	* make：log.htm 更新機能
 	* bug：新規作成関連
