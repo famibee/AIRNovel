@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.908</version>
+		<version>5.909</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.909
+	* upd：AIRnovel 5.65に更新
 5.908
 	* bug：シンプルプロジェクトでビルド失敗
 	* upd：更新確認結果が分かり次第、通知やバウンドを
@@ -17,9 +19,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.908</version>
+		<version>5.909</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.909
+	* upd：AIRnovel 5.65に更新
 5.908
 	* bug：シンプルプロジェクトでビルド失敗
 	* upd：更新確認結果が分かり次第、通知やバウンドを

@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.64</versionNumber>
+	<versionNumber>5.65</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.65
+	* bug：label属性ありの[load]で、起動後一度もロードしていないスクリプトでエラーになる事がある不具合
 5.64
 	* bug：AIRNovel：文字レイヤが無いが（クリックマーク素材が無くて例外としてエラーにせず）[p][l]で停止後、再開時にクリックマークを消そうとして「文字レイヤーがありません」エラーになる不具合修正
 	* bug：AIRNovel：[p][l]で停止後、再開時直後に文字表示でエラーが発生した場合に適切なエラー表示されない不具合
 	* chg：AIRNovel：文字表示エラーの捕捉を改善
 	* bug：AIRNovel：内部不具合修正（CmnLib.clone(source)でsource.position=0という余計な処理）
-5.63
-	* bug：5.62改修で、動作が変わってしまうのでレイヤ状態クリアは取りやめ
-5.62
-	* upd：画像レイヤへの[lay]でfn・face指定されていても、ロード済fn・faceと同じなら「レイヤ状態のクリアだけして画像は再ロードしない」ように（パフォーマンス改善）
-	* bug：文字レイヤが無い場合に[reload_script]するとエラーになる不具合
 ]]></description>
 </update>
