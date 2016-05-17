@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>0.147</version>
+		<version>0.148</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANEdit/ANEdit.dmg</url>
 	<description><![CDATA[
+0.148
+	* upd：AIRnovel 5.66に更新
 0.147
 	* upd：AIRnovel 5.65に更新
 0.146
 	* upd：AIRnovel 5.64に更新
-0.145
-	* upd：AIRnovel 5.63に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>0.147</version>
+		<version>0.148</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANEdit/ANEdit.exe</url>
 	<description><![CDATA[
+0.148
+	* upd：AIRnovel 5.66に更新
 0.147
 	* upd：AIRnovel 5.65に更新
 0.146
 	* upd：AIRnovel 5.64に更新
-0.145
-	* upd：AIRnovel 5.63に更新
 ]]></description>
 	</exe>
 </update>
