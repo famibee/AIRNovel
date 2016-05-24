@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.109</versionNumber>
+	<versionNumber>5.110</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.110
+	* bug：「暗号化キーを自動生成」ボタンを押すと「ant _code_key」が動く不具合
 5.109
 	* upd：AIRnovel 5.68に更新
 5.108
 	* upd：AIRnovel 5.67に更新
-5.107
-	* upd：AIRnovel 5.66に更新
 ]]></description>
 </update>
