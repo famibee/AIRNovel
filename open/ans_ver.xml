@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.68</versionNumber>
+	<versionNumber>5.69</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.69
+	* chg：内部的な変更（argChk_Boolean()）
+	* bug：インストール直後に黒画面停止してしまう不具合
+	* bug：win版のみ暗号化等で application descriptor not found エラーになる件
 5.68
 	* add：（AIRlib 5.02）ToNFC（NFD→NFC変換）クラス修正・最適化
 	* add：今まで通り簡単に動く方向への変更
@@ -11,7 +15,5 @@
 	* add：（AIRlib 5.01）ToNFC（NFD→NFC変換）クラス追加
 	* bug：AIR 19発表時辺り(Sept.21, 2015)のAIR SDKから、Macでビルドしたairパッケージのファイル名が、独自NFDからNFCに変換されなくなった件に対応
 	* add：ファイル名指定で「ブ」等NFD表記をした場合にエラー出す「an.chkNFD」追加
-5.66
-	* bug：label属性ありの[load]関連の不具合
 ]]></description>
 </update>

@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.913</version>
+		<version>5.914</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.914
+	* upd：AIRnovel 5.69に更新
 5.913
 	* bug：「暗号化キーを自動生成」ボタンを押すと「ant _code_key」が動く不具合
 5.912
 	* upd：AIRnovel 5.68に更新
-5.911
-	* upd：AIRnovel 5.67に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.913</version>
+		<version>5.914</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.914
+	* upd：AIRnovel 5.69に更新
 5.913
 	* bug：「暗号化キーを自動生成」ボタンを押すと「ant _code_key」が動く不具合
 5.912
 	* upd：AIRnovel 5.68に更新
-5.911
-	* upd：AIRnovel 5.67に更新
 ]]></description>
 	</exe>
 </update>
