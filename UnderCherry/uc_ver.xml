@@ -5,7 +5,6 @@
 	<description><![CDATA[
 5.70
 	* add：特別版があるなら使う機能、変数「save:an.userFnTail」を追加。初期値=''
-	* add：iOSで、どの高解像度用ファイルを使うか示す変数「tmp:const.an.retinaFnTail」を追加。
 	* chg：内部処理最適化（path.txtは再生成が必要）
 5.69
 	* chg：内部的な変更（argChk_Boolean()）
