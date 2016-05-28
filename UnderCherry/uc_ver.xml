@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.70</versionNumber>
+	<versionNumber>5.71</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+5.71
+	* bug：特別版があるなら使う機能、不具合修正
 5.70
 	* add：特別版があるなら使う機能、変数「save:an.userFnTail」を追加。初期値=''
 	* chg：内部処理最適化（path.txtは再生成が必要）
@@ -10,9 +12,5 @@
 	* chg：内部的な変更（argChk_Boolean()）
 	* bug：インストール直後に黒画面停止してしまう不具合
 	* bug：win版のみ暗号化等で application descriptor not found エラーになる件
-5.68
-	* add：（AIRlib 5.02）ToNFC（NFD→NFC変換）クラス修正・最適化
-	* add：今まで通り簡単に動く方向への変更
-	* del：ファイル名指定で「ブ」等NFD表記をした場合にエラー出す「an.chkNFD」中止
 ]]></description>
 </update>
