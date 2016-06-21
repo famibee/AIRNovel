@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.917</version>
+		<version>5.918</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.918
+	* bug：起動に失敗する不具合修正
 5.917
 	* upd：AIRnovel 5.72に更新
 5.916
@@ -16,9 +18,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.917</version>
+		<version>5.918</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.918
+	* bug：起動に失敗する不具合修正
 5.917
 	* upd：AIRnovel 5.72に更新
 5.916
