@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.71</versionNumber>
+	<versionNumber>5.72</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.72
+	* bug：【hA['args']】のような角括弧表記の変数への[let]等に失敗する不具合
+	* bug：[let]などの変数名文法チェックを厳格に
+	* info：[let]などの変数名指定は変数展開しない件を明記
 5.71
 	* bug：特別版があるなら使う機能、不具合修正
 5.70
 	* add：特別版があるなら使う機能、変数「save:an.userFnTail」を追加。初期値=''
 	* chg：内部処理最適化（path.txtは再生成が必要）
-5.69
-	* chg：内部的な変更（argChk_Boolean()）
-	* bug：インストール直後に黒画面停止してしまう不具合
-	* bug：win版のみ暗号化等で application descriptor not found エラーになる件
 ]]></description>
 </update>
