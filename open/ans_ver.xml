@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.73</versionNumber>
+	<versionNumber>5.74</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.74
+	* bug：スキップモードで[ch]をスキップしない不具合
+	* add：変数an.skip.all追加。false（デフォルト値）ならスキップモードで既読のみをスキップし、未読部分手前の[l][p]でスキップを停止する。
 5.73
 	* bug：行冒頭に[graph]画像を表示した場合、表示が崩れる不具合
 5.72
 	* bug：【hA['args']】のような角括弧表記の変数への[let]等に失敗する不具合
 	* bug：[let]などの変数名文法チェックを厳格に
 	* info：[let]などの変数名指定は変数展開しない件を明記
-5.71
-	* bug：特別版があるなら使う機能、不具合修正
 ]]></description>
 </update>

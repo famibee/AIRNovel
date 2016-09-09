@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.117</versionNumber>
+	<versionNumber>5.118</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.118
+	* upd：AIRnovel 5.74に更新
 5.117
 	* upd：AIRnovel 5.73に更新
 5.116
 	* bug：IOS、Android、プラグイン版をテンプレから生成するとError #1104になる件
-5.115
-	* bug：環境設定が上手く行かない不具合（延々終わらない）
-	* upd：環境設定ファイルを github に移動、100MB超のファイルは分割
-	* upd：apache ant ver 1.9.7 に更新
 ]]></description>
 </update>

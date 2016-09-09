@@ -2,33 +2,33 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.920</version>
+		<version>5.921</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.921（新世代 beta版）
+	* upd：AIRnovel 5.74に更新
 5.920（新世代 beta版）
 	* upd：AIRnovel 5.73に更新
 5.919（新世代 beta版）
 	* bug：環境設定が上手く行かない不具合（延々終わらない）
 	* upd：環境設定ファイルを github に移動、100MB超のファイルは分割
 	* upd：apache ant ver 1.9.7 に更新
-5.918
-	* bug：起動に失敗する不具合修正
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.920</version>
+		<version>5.921</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.921（新世代 beta版）
+	* upd：AIRnovel 5.74に更新
 5.920（新世代 beta版）
 	* upd：AIRnovel 5.73に更新
 5.919（新世代 beta版）
 	* bug：環境設定が上手く行かない不具合（延々終わらない）
 	* upd：環境設定ファイルを github に移動、100MB超のファイルは分割
 	* upd：apache ant ver 1.9.7 に更新
-5.918
-	* bug：起動に失敗する不具合修正
 ]]></description>
 	</exe>
 </update>
