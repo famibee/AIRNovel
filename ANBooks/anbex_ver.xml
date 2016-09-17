@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.119</version>
+		<version>5.120</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.120
+	* upd：Adobe AIR 23に更新2(Winで失敗するため)
 5.119
 	* upd：Adobe AIR 23に更新
 5.118
@@ -16,9 +18,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.119</version>
+		<version>5.120</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.120
+	* upd：Adobe AIR 23に更新2(Winで失敗するため)
 5.119
 	* upd：Adobe AIR 23に更新
 5.118
