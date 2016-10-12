@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.121</versionNumber>
+	<versionNumber>5.122</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.122
+	* upd：AIRnovel 5.75に更新
 5.121
 	* upd：Adobe AIR 23に更新3(Winで失敗するため)
 5.120
 	* upd：Adobe AIR 23に更新2(Winで失敗するため)
-5.119
-	* upd：Adobe AIR 23に更新
-5.118
-	* upd：AIRnovel 5.74に更新
-5.117
-	* upd：AIRnovel 5.73に更新
 ]]></description>
 </update>
