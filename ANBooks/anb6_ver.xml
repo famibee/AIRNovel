@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.926</version>
+		<version>5.927</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.927（新世代 beta版）
+	* upd：AIRnovel 5.76に更新
 5.926（新世代 beta版）
 	* upd：AIRnovel 5.75に更新
 5.925（新世代 beta版）
@@ -12,16 +14,16 @@
 	* bug：表示部更新最終日付情報の更新忘れ
 	* bug：テンプレ更新最終日付情報の更新忘れ
 	* upd：Electron: 1.4.1	Node: 6.1.0 に更新。
-5.924（新世代 beta版）
-	* upd：Adobe AIR 23に更新3(Winで失敗するため)
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.926</version>
+		<version>5.927</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.927（新世代 beta版）
+	* upd：AIRnovel 5.76に更新
 5.926（新世代 beta版）
 	* upd：AIRnovel 5.75に更新
 5.925（新世代 beta版）
@@ -29,8 +31,6 @@
 	* bug：表示部更新最終日付情報の更新忘れ
 	* bug：テンプレ更新最終日付情報の更新忘れ
 	* upd：Electron: 1.4.1	Node: 6.1.0 に更新。
-5.924（新世代 beta版）
-	* upd：Adobe AIR 23に更新3(Winで失敗するため)
 ]]></description>
 	</exe>
 </update>

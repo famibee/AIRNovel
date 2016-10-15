@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.122</versionNumber>
+	<versionNumber>5.123</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.123
+	* upd：AIRnovel 5.76に更新
+	* upd：ANBooks：暗号化対象anもスクリプト初出の「;#USE-FONT」や「fontFamily」を変更するように。
 5.122
 	* upd：AIRnovel 5.75に更新
 5.121
 	* upd：Adobe AIR 23に更新3(Winで失敗するため)
-5.120
-	* upd：Adobe AIR 23に更新2(Winで失敗するため)
 ]]></description>
 </update>

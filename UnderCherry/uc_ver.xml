@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.75</versionNumber>
+	<versionNumber>5.76</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+5.76
+	* bug：強制スキップ停止時、クリック待ちマークが表示されない
+	* bug：既読情報が正しく保存されていない不具合
 5.75
 	* upd：ファイル重複チェックなどで拡張子「db,ini,DS_Store」を無視するように。Steam配信でエラーになる対策。ランチャー経由起動だと、フォルダに不要なファイルThumbs.dbが生成されるらしいので。
 5.74
 	* bug：スキップモードで[ch]をスキップしない不具合
 	* add：変数an.skip.all追加。false（デフォルト値）ならスキップモードで既読のみをスキップし、未読部分手前の[l][p]でスキップを停止する。
-5.73
-	* bug：行冒頭に[graph]画像を表示した場合、表示が崩れる不具合
 ]]></description>
 </update>
