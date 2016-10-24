@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.124</version>
+		<version>5.125</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.125
+	* upd：AIRnovel 5.78に更新
 5.124
 	* upd：AIRnovel 5.77に更新
 5.123
 	* upd：AIRnovel 5.76に更新
 	* upd：ANBooks：暗号化対象anもスクリプト初出の「;#USE-FONT」や「fontFamily」を変更するように。
-5.122
-	* upd：AIRnovel 5.75に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.124</version>
+		<version>5.125</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.125
+	* upd：AIRnovel 5.78に更新
 5.124
 	* upd：AIRnovel 5.77に更新
 5.123
 	* upd：AIRnovel 5.76に更新
 	* upd：ANBooks：暗号化対象anもスクリプト初出の「;#USE-FONT」や「fontFamily」を変更するように。
-5.122
-	* upd：AIRnovel 5.75に更新
 ]]></description>
 	</exe>
 </update>
