@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.76</versionNumber>
+	<versionNumber>5.77</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.77
+	* upd：m4a形式の再生でもret_ms属性を使えるように。
 5.76
 	* bug：強制スキップ停止時、クリック待ちマークが表示されない
 	* bug：既読情報が正しく保存されていない不具合
 5.75
 	* upd：ファイル重複チェックなどで拡張子「db,ini,DS_Store」を無視するように。Steam配信でエラーになる対策。ランチャー経由起動だと、フォルダに不要なファイルThumbs.dbが生成されるらしいので。
-5.74
-	* bug：スキップモードで[ch]をスキップしない不具合
-	* add：変数an.skip.all追加。false（デフォルト値）ならスキップモードで既読のみをスキップし、未読部分手前の[l][p]でスキップを停止する。
 ]]></description>
 </update>
