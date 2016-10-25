@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.125</versionNumber>
+	<versionNumber>5.126</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.126
+	* chg：最小限フォント生成で、空白文字も字形情報を含ませるように。「｜《》」の字形情報は地の文では含まず、「;#FONT」などで明示的に指定して含ませられる。
+	* upd：AIRnovel 5.79に更新
 5.125
 	* upd：AIRnovel 5.78に更新
 5.124

@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.929</version>
+		<version>5.930</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.930（新世代 beta版）
+	* upd：AIRnovel 5.79に更新
 5.929（新世代 beta版）
 	* upd：AIRnovel 5.78に更新
 5.928（新世代 beta版）
@@ -16,9 +18,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.929</version>
+		<version>5.930</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.930（新世代 beta版）
+	* upd：AIRnovel 5.79に更新
 5.929（新世代 beta版）
 	* upd：AIRnovel 5.78に更新
 5.928（新世代 beta版）

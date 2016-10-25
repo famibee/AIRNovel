@@ -2,9 +2,12 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.125</version>
+		<version>5.126</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.126
+	* chg：最小限フォント生成で、空白文字も字形情報を含ませるように。「｜《》」の字形情報は地の文では含まず、「;#FONT」などで明示的に指定して含ませられる。
+	* upd：AIRnovel 5.79に更新
 5.125
 	* upd：AIRnovel 5.78に更新
 5.124
@@ -17,9 +20,12 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.125</version>
+		<version>5.126</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.126
+	* chg：最小限フォント生成で、空白文字も字形情報を含ませるように。「｜《》」の字形情報は地の文では含まず、「;#FONT」などで明示的に指定して含ませられる。
+	* upd：AIRnovel 5.79に更新
 5.125
 	* upd：AIRnovel 5.78に更新
 5.124
