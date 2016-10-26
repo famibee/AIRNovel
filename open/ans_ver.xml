@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.79</versionNumber>
+	<versionNumber>5.80</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.80
+	* bug：face属性を""にしたとき、クリアではなくエラーになる不具合修正
 5.79
 	* chg：空白文字のフォントチェックを行なうように。
 5.78
 	* bug：フォント生成処理（最小限）で【空白文字】や【｜《》】を含めない処理をしているため、フォント組み込みチェックの対象外にするよう修正
-5.77
-	* upd：m4a形式の再生でもret_ms属性を使えるように。
-5.76
-	* bug：強制スキップ停止時、クリック待ちマークが表示されない
-	* bug：既読情報が正しく保存されていない不具合
 ]]></description>
 </update>
