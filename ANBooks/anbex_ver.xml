@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.129</version>
+		<version>5.130</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.130
+	* bug：フォント生成処理（最小限）で【｜《》】なども例外なく含めるよう修正
 5.129
 	* bug：最小限フォント処理、「& 変数操作・変数表示」文法を本文扱いしないように。
 	* chg：生成フォントソースasにトラブルシューティングメモを出力するように。
@@ -23,9 +25,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.129</version>
+		<version>5.130</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.130
+	* bug：フォント生成処理（最小限）で【｜《》】なども例外なく含めるよう修正
 5.129
 	* bug：最小限フォント処理、「& 変数操作・変数表示」文法を本文扱いしないように。
 	* chg：生成フォントソースasにトラブルシューティングメモを出力するように。
