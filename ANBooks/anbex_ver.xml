@@ -2,11 +2,13 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.128</version>
+		<version>5.129</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.129
+	* bug：最小限フォント処理、「& 変数操作・変数表示」文法を本文扱いしないように。
+	* chg：生成フォントソースasにトラブルシューティングメモを出力するように。
 5.128
-	* bug：plgQuake・plgTweensyプラグインがＦ既読スキップしない不具合修正
 	* upd：AIRnovel 5.81に更新
 5.127
 	* bug：plgQuake・plgTweensyプラグインがＦ既読スキップしない不具合修正
@@ -21,11 +23,13 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.128</version>
+		<version>5.129</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.129
+	* bug：最小限フォント処理、「& 変数操作・変数表示」文法を本文扱いしないように。
+	* chg：生成フォントソースasにトラブルシューティングメモを出力するように。
 5.128
-	* bug：plgQuake・plgTweensyプラグインがＦ既読スキップしない不具合修正
 	* upd：AIRnovel 5.81に更新
 5.127
 	* bug：plgQuake・plgTweensyプラグインがＦ既読スキップしない不具合修正
