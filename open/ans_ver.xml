@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.80</versionNumber>
+	<versionNumber>5.81</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.81
+	* chg：リソース管理で気になる点を修正
 5.80
 	* bug：face属性を""にしたとき、クリアではなくエラーになる不具合修正
 5.79

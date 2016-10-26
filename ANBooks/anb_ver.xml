@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.127</versionNumber>
+	<versionNumber>5.128</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.128
+	* bug：plgQuake・plgTweensyプラグインがＦ既読スキップしない不具合修正
+	* upd：AIRnovel 5.81に更新
 5.127
 	* bug：plgQuake・plgTweensyプラグインがＦ既読スキップしない不具合修正
 	* upd：AIRnovel 5.80に更新
