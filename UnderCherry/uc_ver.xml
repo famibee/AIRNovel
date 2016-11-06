@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.82</versionNumber>
+	<versionNumber>5.83</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+5.83
+	* bug：変数名が「const.」で始まる変数に代入でき、エラーにならない不具合
+	* add：[log]を追記型にし、スクリプト名や行番号、OSやプロジェクト名も出力
 5.82
 	* bug：オートモード時、v5.81での変更でBGMが消えずどんどん重なっていく不具合。v5.80に戻す。
 5.81
 	* chg：リソース管理で気になる点を修正
-5.80
-	* bug：face属性を""にしたとき、クリアではなくエラーになる不具合修正
-5.79
-	* chg：空白文字のフォントチェックを行なうように。
-5.78
-	* bug：フォント生成処理（最小限）で【空白文字】や【｜《》】を含めない処理をしているため、フォント組み込みチェックの対象外にするよう修正
 ]]></description>
 </update>
