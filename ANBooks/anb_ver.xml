@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.131</versionNumber>
+	<versionNumber>5.132</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.132
+	* upd：AIRnovel 5.84に更新（本質変更無し）
 5.131
 	* upd：AIRnovel 5.83に更新
 5.130
 	* bug：フォント生成処理（最小限）で【｜《》】なども例外なく含めるよう修正
-5.129
-	* bug：最小限フォント処理、「& 変数操作・変数表示」文法を本文扱いしないように。
-	* chg：生成フォントソースasにトラブルシューティングメモを出力するように。
 ]]></description>
 </update>

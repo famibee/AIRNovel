@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.83</versionNumber>
+	<versionNumber>5.84</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+5.84
+	* bug：（AIRlib 5.04）MkFace（PSD=>表情差分ファイル群変換）Photoshop 5.0未満フォーマットに対応
+	* upd：（AIRlib 5.04）MkFace、多重フォルダに対応
+	* upd：（AIRlib 5.04）MkFace、覆い焼き（リニア）加算サポート
 5.83
 	* bug：変数名が「const.」で始まる変数に代入でき、エラーにならない不具合
 	* add：[log]を追記型にし、スクリプト名や行番号、OSやプロジェクト名も出力
 5.82
 	* bug：オートモード時、v5.81での変更でBGMが消えずどんどん重なっていく不具合。v5.80に戻す。
-5.81
-	* chg：リソース管理で気になる点を修正
 ]]></description>
 </update>
