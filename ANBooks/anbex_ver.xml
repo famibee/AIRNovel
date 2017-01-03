@@ -2,29 +2,37 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.134</version>
+		<version>5.139</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
-5.134
-	* upd：AIRnovel 5.86に更新
-5.133
-	* upd：AIRnovel 5.85に更新
-5.132
-	* upd：AIRnovel 5.84に更新（本質変更無し）
+5.139
+	* upd：AIRnovel 5.90に更新
+	* upd：現行版と次世代版でＤＢ共有化（json）
+	* bug：疑似環境実行で「〜.applicationDescriptor.〜」など一部組み込み変数が、ANBooks自身の値になる不具合
+	* upd：Adobe AIR SDK 24 に更新
+	* upd：Apache Ant更新（ver 1.9.4→1.9.8）
+5.138
+	* upd：AIRnovel 5.89に更新
+5.137
+	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.134</version>
+		<version>5.139</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
-5.134
-	* upd：AIRnovel 5.86に更新
-5.133
-	* upd：AIRnovel 5.85に更新
-5.132
-	* upd：AIRnovel 5.84に更新（本質変更無し）
+5.139
+	* upd：AIRnovel 5.90に更新
+	* upd：現行版と次世代版でＤＢ共有化（json）
+	* bug：疑似環境実行で「〜.applicationDescriptor.〜」など一部組み込み変数が、ANBooks自身の値になる不具合
+	* upd：Adobe AIR SDK 24 に更新
+	* upd：Apache Ant更新（ver 1.9.4→1.9.8）
+5.138
+	* upd：AIRnovel 5.89に更新
+5.137
+	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</exe>
 </update>

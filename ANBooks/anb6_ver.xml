@@ -2,29 +2,35 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.937</version>
+		<version>5.942</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
-5.937（新世代 beta版）
-	* upd：AIRnovel 5.86に更新
-5.936（新世代 beta版）
-	* upd：AIRnovel 5.85に更新
-5.935（新世代 beta版）
-	* upd：AIRnovel 5.84に更新（本質変更無し）
+5.942（新世代 beta版）
+	* upd：AIRnovel 5.90に更新
+	* upd：現行版と次世代版でＤＢ共有化（json）
+	* upd：electronをv1.4.13に更新、JavaScriptライブラリも更新。
+	* upd：anbook・anbzipオープン・パックサポート
+5.941（新世代 beta版）
+	* upd：AIRnovel 5.89に更新
+5.940（新世代 beta版）
+	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.937</version>
+		<version>5.942</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
-5.937（新世代 beta版）
-	* upd：AIRnovel 5.86に更新
-5.936（新世代 beta版）
-	* upd：AIRnovel 5.85に更新
-5.935（新世代 beta版）
-	* upd：AIRnovel 5.84に更新（本質変更無し）
+5.942（新世代 beta版）
+	* upd：AIRnovel 5.90に更新
+	* upd：現行版と次世代版でＤＢ共有化（json）
+	* upd：electronをv1.4.13に更新、JavaScriptライブラリも更新。
+	* upd：anbook・anbzipオープン・パックサポート
+5.941（新世代 beta版）
+	* upd：AIRnovel 5.89に更新
+5.940（新世代 beta版）
+	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</exe>
 </update>

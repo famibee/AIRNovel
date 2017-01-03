@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.86</versionNumber>
+	<versionNumber>5.90</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
-5.86
-	* bug：BGM再生時、loop=falseにしてセーブロードすると、loop=trueとなる件
-	* add：BGMループ状態を示す変数const.an.loopBgm追加
-5.85
-	* bug：レイヤコピー時に、face属性による差分表示位置が間違っている不具合
-5.84
-	* bug：（AIRlib 5.04）MkFace（PSD=>表情差分ファイル群変換）Photoshop 5.0未満フォーマットに対応
-	* upd：（AIRlib 5.04）MkFace、多重フォルダに対応
-	* upd：（AIRlib 5.04）MkFace、覆い焼き（リニア）加算サポート
+5.90
+	* bug：[ruby]使用時の履歴が親文字とルビが並ぶ形になる件
+5.89
+	* bug：[ruby]使用時の履歴が親文字とルビが並ぶ形になる件
+5.88
+	（略）詳細はブログで
 ]]></description>
 </update>
