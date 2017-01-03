@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.942</version>
+		<version>5.943</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+5.943（新世代 beta版）
+	* bug：起動時に prj-app.xml の versionNumber を undefined にする不具合
 5.942（新世代 beta版）
 	* upd：AIRnovel 5.90に更新
 	* upd：現行版と次世代版でＤＢ共有化（json）
@@ -12,16 +14,16 @@
 	* upd：anbook・anbzipオープン・パックサポート
 5.941（新世代 beta版）
 	* upd：AIRnovel 5.89に更新
-5.940（新世代 beta版）
-	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.942</version>
+		<version>5.943</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+5.943（新世代 beta版）
+	* bug：起動時に prj-app.xml の versionNumber を undefined にする不具合
 5.942（新世代 beta版）
 	* upd：AIRnovel 5.90に更新
 	* upd：現行版と次世代版でＤＢ共有化（json）
@@ -29,8 +31,6 @@
 	* upd：anbook・anbzipオープン・パックサポート
 5.941（新世代 beta版）
 	* upd：AIRnovel 5.89に更新
-5.940（新世代 beta版）
-	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</exe>
 </update>
