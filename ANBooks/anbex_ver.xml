@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.140</version>
+		<version>5.141</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.141
+	* upd：AIRnovel 5.92に更新
 5.140
 	* upd：AIRnovel 5.91に更新
 5.139
@@ -13,16 +15,16 @@
 	* bug：疑似環境実行で「〜.applicationDescriptor.〜」など一部組み込み変数が、ANBooks自身の値になる不具合
 	* upd：Adobe AIR SDK 24 に更新
 	* upd：Apache Ant更新（ver 1.9.4→1.9.8）
-5.138
-	* upd：AIRnovel 5.89に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.140</version>
+		<version>5.141</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.141
+	* upd：AIRnovel 5.92に更新
 5.140
 	* upd：AIRnovel 5.91に更新
 5.139
@@ -31,8 +33,6 @@
 	* bug：疑似環境実行で「〜.applicationDescriptor.〜」など一部組み込み変数が、ANBooks自身の値になる不具合
 	* upd：Adobe AIR SDK 24 に更新
 	* upd：Apache Ant更新（ver 1.9.4→1.9.8）
-5.138
-	* upd：AIRnovel 5.89に更新
 ]]></description>
 	</exe>
 </update>

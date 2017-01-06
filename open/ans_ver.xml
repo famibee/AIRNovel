@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.91</versionNumber>
+	<versionNumber>5.92</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+5.92
+	* bug：[if]ブロック内での[record_place]（セーブ・ロード）でエラーになる件
 5.91
 	* bug：[playbgm][playse]でvolume属性省略時に目標音量を1にしてなかった不具合
 5.90
-	* bug：[ruby]使用時の履歴が親文字とルビが並ぶ形になる件
-5.89
 	* bug：[ruby]使用時の履歴が親文字とルビが並ぶ形になる件
 ]]></description>
 </update>
