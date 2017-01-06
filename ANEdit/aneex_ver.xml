@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>0.173</version>
+		<version>0.174</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANEdit/ANEdit.dmg</url>
 	<description><![CDATA[
+0.174
+	* upd：AIRnovel 5.91に更新
 0.173
 	* upd：AIRnovel 5.90に更新
 	* bug：仮想環境実行時にもう一つ起動してしまう不具合
 0.172
 	* upd：AIRnovel 5.89に更新
-0.171
-	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>0.173</version>
+		<version>0.174</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANEdit/ANEdit.exe</url>
 	<description><![CDATA[
+0.174
+	* upd：AIRnovel 5.91に更新
 0.173
 	* upd：AIRnovel 5.90に更新
 	* bug：仮想環境実行時にもう一つ起動してしまう不具合
 0.172
 	* upd：AIRnovel 5.89に更新
-0.171
-	* upd：AIRnovel 5.88に更新
 ]]></description>
 	</exe>
 </update>
