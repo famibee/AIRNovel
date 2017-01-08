@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.92</versionNumber>
+	<versionNumber>6.0</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.0
+	* bug：ロード時にBGMが再生されない件
 5.92
 	* bug：[if]ブロック内での[record_place]（セーブ・ロード）でエラーになる件
 5.91

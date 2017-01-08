@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.01</version>
+		<version>6.02</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.02（新世代版）
+	* upd：AIRnovel 6.0に更新
 6.01（新世代版）
 	* add：アプリケーションメニューとコンテキストメニュー追加
 	* bug：コピペなどが出来ない不具合
@@ -12,17 +14,16 @@
 	* upd：AIRnovel 5.92に更新
 	* bug：自動更新機能が止まっていた不具合
 	* bug：ターミナル表示中にビルドすると、[null]と出てビルドが進まない不具合
-5.944（新世代 beta版）
-	* upd：AIRnovel 5.91に更新
-	* upd：Mac/Win間でもanbook・anbzipオープン・パックサポート
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.01</version>
+		<version>6.02</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.02（新世代版）
+	* upd：AIRnovel 6.0に更新
 6.01（新世代版）
 	* add：アプリケーションメニューとコンテキストメニュー追加
 	* bug：コピペなどが出来ない不具合
@@ -30,9 +31,6 @@
 	* upd：AIRnovel 5.92に更新
 	* bug：自動更新機能が止まっていた不具合
 	* bug：ターミナル表示中にビルドすると、[null]と出てビルドが進まない不具合
-5.944（新世代 beta版）
-	* upd：AIRnovel 5.91に更新
-	* upd：Mac/Win間でもanbook・anbzipオープン・パックサポート
 ]]></description>
 	</exe>
 </update>

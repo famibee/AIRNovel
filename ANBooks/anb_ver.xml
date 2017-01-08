@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.141</versionNumber>
+	<versionNumber>5.142</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.142
+	* upd：AIRnovel 6.0に更新
 5.141
 	* upd：AIRnovel 5.92に更新
 5.140
 	* upd：AIRnovel 5.91に更新
-5.139
-	* upd：AIRnovel 5.90に更新
-	* upd：現行版と次世代版でＤＢ共有化（json）
-	* bug：疑似環境実行で「〜.applicationDescriptor.〜」など一部組み込み変数が、ANBooks自身の値になる不具合
-	* upd：Adobe AIR SDK 24 に更新
-	* upd：Apache Ant更新（ver 1.9.4→1.9.8）
 ]]></description>
 </update>
