@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.143</versionNumber>
+	<versionNumber>5.144</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.144
+	* add：フォント生成：変数代入文をフォント生成対象とする／しない切り替える機能（;#VAL2FONT ON、同OFF）
+	* bug：テンプレ更新：音量の扱い変更に伴うテンプレマクロ変更
 5.143
 	* upd：AIRnovel 6.01に更新
 5.142
 	* upd：AIRnovel 6.0に更新
-5.141
-	* upd：AIRnovel 5.92に更新
 ]]></description>
 </update>
