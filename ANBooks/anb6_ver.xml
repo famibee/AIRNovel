@@ -2,45 +2,45 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.04</version>
+		<version>6.05</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.05（新世代版）
+	* bug：プロジェクトフォルダで発見したフォルダを<target name="anc">に追加・削除しない件
+	* bug：リスト画面でアイコンが更新されない件
 6.04（新世代版）
 	* add：フォント生成：変数代入文をフォント生成対象とする／しない切り替える機能（;#VAL2FONT ON、同OFF）
 	* add：テンプレ追加：「桜の木の下には」多言語対応版（中国語版だけ中途）追加
 	* add：Steamリリース用、OS個別ランタイムバンドルパッケージ生成機能追加
 	* info：詳細モードを一時寝かす。ANBooksが多重起動する不具合。
-	* bug：テンプレ更新：音量の扱い変更に伴うテンプレマクロ変更
-	* bug：テンプレ更新：[bgm]マクロの音量設定ミス修正
+	* bug：テンプレ更新：音量の扱い変更に伴うテンプレ[bgm]マクロミス修正
 6.03（新世代版）
 	* upd：AIRnovel 6.01に更新
 	* upd：テンプレ更新：コメント追加、設定画面（HTMLレイヤ初期化遅いので）早めにロード
 	* upd：テンプレ更新：プレイ環境より画面サイズが大きい場合は全画面モードに
 	* bug：テンプレ更新：プラグイン不具合修正
-6.02（新世代版）
-	* upd：AIRnovel 6.0に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.04</version>
+		<version>6.05</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.05（新世代版）
+	* bug：プロジェクトフォルダで発見したフォルダを<target name="anc">に追加・削除しない件
+	* bug：リスト画面でアイコンが更新されない件
 6.04（新世代版）
 	* add：フォント生成：変数代入文をフォント生成対象とする／しない切り替える機能（;#VAL2FONT ON、同OFF）
 	* add：テンプレ追加：「桜の木の下には」多言語対応版（中国語版だけ中途）追加
 	* add：Steamリリース用、OS個別ランタイムバンドルパッケージ生成機能追加
 	* info：詳細モードを一時寝かす。ANBooksが多重起動する不具合。
-	* bug：テンプレ更新：音量の扱い変更に伴うテンプレマクロ変更
-	* bug：テンプレ更新：[bgm]マクロの音量設定ミス修正
+	* bug：テンプレ更新：音量の扱い変更に伴うテンプレ[bgm]マクロミス修正
 6.03（新世代版）
 	* upd：AIRnovel 6.01に更新
 	* upd：テンプレ更新：コメント追加、設定画面（HTMLレイヤ初期化遅いので）早めにロード
 	* upd：テンプレ更新：プレイ環境より画面サイズが大きい場合は全画面モードに
 	* bug：テンプレ更新：プラグイン不具合修正
-6.02（新世代版）
-	* upd：AIRnovel 6.0に更新
 ]]></description>
 	</exe>
 </update>
