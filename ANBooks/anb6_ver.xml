@@ -2,9 +2,12 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.05</version>
+		<version>6.06</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.06（新世代版）
+	* bug：仮想環境実行で[trace]文が出ない件
+	* bug：暗号化スイッチ切り替え時の処理を修正
 6.05（新世代版）
 	* bug：プロジェクトフォルダで発見したフォルダを<target name="anc">に追加・削除しない件
 	* bug：リスト画面でアイコンが更新されない件
@@ -14,19 +17,17 @@
 	* add：Steamリリース用、OS個別ランタイムバンドルパッケージ生成機能追加
 	* info：詳細モードを一時寝かす。ANBooksが多重起動する不具合。
 	* bug：テンプレ更新：音量の扱い変更に伴うテンプレ[bgm]マクロミス修正
-6.03（新世代版）
-	* upd：AIRnovel 6.01に更新
-	* upd：テンプレ更新：コメント追加、設定画面（HTMLレイヤ初期化遅いので）早めにロード
-	* upd：テンプレ更新：プレイ環境より画面サイズが大きい場合は全画面モードに
-	* bug：テンプレ更新：プラグイン不具合修正
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.05</version>
+		<version>6.06</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.06（新世代版）
+	* bug：仮想環境実行で[trace]文が出ない件
+	* bug：暗号化スイッチ切り替え時の処理を修正
 6.05（新世代版）
 	* bug：プロジェクトフォルダで発見したフォルダを<target name="anc">に追加・削除しない件
 	* bug：リスト画面でアイコンが更新されない件
@@ -36,11 +37,6 @@
 	* add：Steamリリース用、OS個別ランタイムバンドルパッケージ生成機能追加
 	* info：詳細モードを一時寝かす。ANBooksが多重起動する不具合。
 	* bug：テンプレ更新：音量の扱い変更に伴うテンプレ[bgm]マクロミス修正
-6.03（新世代版）
-	* upd：AIRnovel 6.01に更新
-	* upd：テンプレ更新：コメント追加、設定画面（HTMLレイヤ初期化遅いので）早めにロード
-	* upd：テンプレ更新：プレイ環境より画面サイズが大きい場合は全画面モードに
-	* bug：テンプレ更新：プラグイン不具合修正
 ]]></description>
 	</exe>
 </update>
