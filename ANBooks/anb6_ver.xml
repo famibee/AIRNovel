@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.08</version>
+		<version>6.09</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.09（新世代版）
+	* bug：他言語版テンプレ修正：config/_config.js 修正
 6.08（新世代版）
 	* add：画面サイズ1920x1080（FHD (Full-HD, 1080p) 2K）16:9 の桜テンプレ追加
 	* add：画面サイズ1920x1080 の多言語版桜テンプレ追加
@@ -12,17 +14,16 @@
 	* bug：桜テンプレ修正：シナリオ終了→タイトル前に一瞬テキスト窓が見える件
 6.07（新世代版）
 	* bug：Winの32bit OSで表示部を起動出来ない件、32bit版を用意する対応
-6.06（新世代版）
-	* bug：仮想環境実行で[trace]文が出ない件
-	* bug：暗号化スイッチ切り替え時の処理を修正
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.08</version>
+		<version>6.09</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.09（新世代版）
+	* bug：他言語版テンプレ修正：config/_config.js 修正
 6.08（新世代版）
 	* add：画面サイズ1920x1080（FHD (Full-HD, 1080p) 2K）16:9 の桜テンプレ追加
 	* add：画面サイズ1920x1080 の多言語版桜テンプレ追加
@@ -30,9 +31,6 @@
 	* bug：桜テンプレ修正：シナリオ終了→タイトル前に一瞬テキスト窓が見える件
 6.07（新世代版）
 	* bug：Winの32bit OSで表示部を起動出来ない件、32bit版を用意する対応
-6.06（新世代版）
-	* bug：仮想環境実行で[trace]文が出ない件
-	* bug：暗号化スイッチ切り替え時の処理を修正
 ]]></description>
 	</exe>
 </update>

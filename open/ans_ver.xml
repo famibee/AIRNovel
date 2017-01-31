@@ -9,9 +9,5 @@
 	* bug：ロード時にBGMが再生されない件
 5.92
 	* bug：[if]ブロック内での[record_place]（セーブ・ロード）でエラーになる件
-5.91
-	* bug：[playbgm][playse]でvolume属性省略時に目標音量を1にしてなかった不具合
-5.90
-	* bug：[ruby]使用時の履歴が親文字とルビが並ぶ形になる件
 ]]></description>
 </update>
