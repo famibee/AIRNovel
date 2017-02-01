@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.09</version>
+		<version>6.10</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.10（新世代版）
+	* upd：AIRnovel 6.02に更新
 6.09（新世代版）
 	* bug：他言語版テンプレ修正：config/_config.js 修正
 6.08（新世代版）
@@ -12,16 +14,16 @@
 	* add：画面サイズ1920x1080 の多言語版桜テンプレ追加
 	* bug：桜テンプレ修正：桜冒頭、文字ウインドウを消すつもりが消えてなかったので
 	* bug：桜テンプレ修正：シナリオ終了→タイトル前に一瞬テキスト窓が見える件
-6.07（新世代版）
-	* bug：Winの32bit OSで表示部を起動出来ない件、32bit版を用意する対応
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.09</version>
+		<version>6.10</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.10（新世代版）
+	* upd：AIRnovel 6.02に更新
 6.09（新世代版）
 	* bug：他言語版テンプレ修正：config/_config.js 修正
 6.08（新世代版）
@@ -29,8 +31,6 @@
 	* add：画面サイズ1920x1080 の多言語版桜テンプレ追加
 	* bug：桜テンプレ修正：桜冒頭、文字ウインドウを消すつもりが消えてなかったので
 	* bug：桜テンプレ修正：シナリオ終了→タイトル前に一瞬テキスト窓が見える件
-6.07（新世代版）
-	* bug：Winの32bit OSで表示部を起動出来ない件、32bit版を用意する対応
 ]]></description>
 	</exe>
 </update>

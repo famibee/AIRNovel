@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.01</versionNumber>
+	<versionNumber>6.02</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.02
+	* bug：fn,face属性の変化が無い[fg]と[fg]が連続するとき、後者で画面下端外に移動して見えなくなる不具合
 6.01
 	* bug：効果音[fade]系でノイズ音が紛れる場合がある件
 6.0
 	* bug：ロード時にBGMが再生されない件
-5.92
-	* bug：[if]ブロック内での[record_place]（セーブ・ロード）でエラーになる件
 ]]></description>
 </update>
