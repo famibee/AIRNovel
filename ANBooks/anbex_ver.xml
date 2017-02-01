@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.145</version>
+		<version>5.146</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.146
+	* upd：AIRnovel 6.03に更新
 5.145
 	* upd：AIRnovel 6.02に更新
 5.144
 	* add：フォント生成：変数代入文をフォント生成対象とする／しない切り替える機能（;#VAL2FONT ON、同OFF）
 	* bug：テンプレ更新：音量の扱い変更に伴うテンプレマクロ変更
-5.143
-	* upd：AIRnovel 6.01に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.145</version>
+		<version>5.146</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.146
+	* upd：AIRnovel 6.03に更新
 5.145
 	* upd：AIRnovel 6.02に更新
 5.144
 	* add：フォント生成：変数代入文をフォント生成対象とする／しない切り替える機能（;#VAL2FONT ON、同OFF）
 	* bug：テンプレ更新：音量の扱い変更に伴うテンプレマクロ変更
-5.143
-	* upd：AIRnovel 6.01に更新
 ]]></description>
 	</exe>
 </update>

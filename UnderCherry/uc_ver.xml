@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.02</versionNumber>
+	<versionNumber>6.03</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.03
+	* chg：6.02不具合修正を手直し
 6.02
 	* bug：fn,face属性の変化が無い[fg]と[fg]が連続するとき、後者で画面下端外に移動して見えなくなる不具合
 6.01
