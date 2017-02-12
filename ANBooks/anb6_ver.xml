@@ -2,45 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.12</version>
+		<version>6.13</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.13（新世代版）
+	* upd：テンプレ更新、（設定画面など）初期値をsub.anの前の方へ
 6.12（新世代版）
 	* upd：AIRnovel 6.04に更新
-	* upd：テンプレ更新（sub.an）以下を文字列置換
-		【旧】b_alpha=%b_alpha|&sys:TextLayer.Back.Alpha
-		【新】b_alpha=%b_alpha|1
-	* upd：テンプレ更新（_config.an）以下を削除かコメントアウト
-		（37行目付近）
-		[lay layer="mes" b_alpha=&sys:TextLayer.Back.Alpha]
-		(170行目付近)
-		[lay layer="mes" b_alpha=&sys:TextLayer.Back.Alpha cond="呼び元=='Text'"]
+	* upd：テンプレ更新（sub.an・_config.an）
 6.11（新世代版）
 	* upd：AIRnovel 6.03に更新
-6.10（新世代版）
-	* upd：AIRnovel 6.02に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.12</version>
+		<version>6.13</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.13（新世代版）
+	* upd：テンプレ更新、（設定画面など）初期値をsub.anの前の方へ
 6.12（新世代版）
 	* upd：AIRnovel 6.04に更新
-	* upd：テンプレ更新（sub.an）以下を文字列置換
-		【旧】b_alpha=%b_alpha|&sys:TextLayer.Back.Alpha
-		【新】b_alpha=%b_alpha|1
-	* upd：テンプレ更新（_config.an）以下を削除かコメントアウト
-		（37行目付近）
-		[lay layer="mes" b_alpha=&sys:TextLayer.Back.Alpha]
-		(170行目付近)
-		[lay layer="mes" b_alpha=&sys:TextLayer.Back.Alpha cond="呼び元=='Text'"]
+	* upd：テンプレ更新（sub.an・_config.an）
 6.11（新世代版）
 	* upd：AIRnovel 6.03に更新
-6.10（新世代版）
-	* upd：AIRnovel 6.02に更新
 ]]></description>
 	</exe>
 </update>
