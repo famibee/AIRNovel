@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.04</versionNumber>
+	<versionNumber>6.05</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.05
+	* bug：特定条件で描画がおかしくなる不具合（ものらす氏報告不具合Ｄ）
+	* bug：（リ）ロード後、設定画面でconfig.jsのデフォルト値に戻る（〃不具合Ｂ）
+	* add：ループ再生なら効果音もロード時に再現するように（〃不具合１）
+	* del：システム変数 save:const.an.loopBgm 廃止
+	* add：システム変数 save:const.an.sound.（バッファ名）.fn	追加
 6.04
 	* add：システム変数追加、レイヤに指定された b_alpha属性の値を返す。
 		const.an.lay.（レイヤ名）.fore.b_alpha
 	* chg：文字レイヤ背景の不透明度を、レイヤ設定値と sys:TextLayer.Back.Alpha の掛け算とする。
-		・sys:TextLayer.Back.Alpha
-		【旧】テンプレが使用する普通のsys変数で、AIRNovel内部では特に参照しない。
-		【新】デフォルト値 1.0 のシステム変数に。
-			変更すると「全・文字レイヤ背景の不透明度」を再計算。
-		・[lay]
-		【旧】実際の背景不透明度 = b_alpha属性
-		【新】実際の背景不透明度 = b_alpha属性 * sys:TextLayer.Back.Alpha
 6.03
 	* chg：6.02不具合修正を手直し
-6.02
-	* bug：fn,face属性の変化が無い[fg]と[fg]が連続するとき、後者で画面下端外に移動して見えなくなる不具合
 ]]></description>
 </update>

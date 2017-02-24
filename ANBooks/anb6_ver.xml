@@ -2,33 +2,33 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.15</version>
+		<version>6.16</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.16（新世代版）
+	* upd：AIRnovel 6.05に更新
 6.15（新世代版）
 	* bug：「パッケージに含まない」「暗号化しない」「空フォルダ」でエラー・警告が出る不具合修正
 6.14（新世代版）
 	* bug：フォルダ減検知でボタンは変わるが、ファイルが変更されない
 	* upd：他言語版_config.an手直し（_cfg.lang定義位置を上の方へ）
 	* upd：sub.an：[after_choice]内の[pop_stack]をコメントアウト
-6.13（新世代版）
-	* upd：テンプレ更新、（設定画面など）初期値をsub.anの前の方へ
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.15</version>
+		<version>6.16</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.16（新世代版）
+	* upd：AIRnovel 6.05に更新
 6.15（新世代版）
 	* bug：「パッケージに含まない」「暗号化しない」「空フォルダ」でエラー・警告が出る不具合修正
 6.14（新世代版）
 	* bug：フォルダ減検知でボタンは変わるが、ファイルが変更されない
 	* upd：他言語版_config.an手直し（_cfg.lang定義位置を上の方へ）
 	* upd：sub.an：[after_choice]内の[pop_stack]をコメントアウト
-6.13（新世代版）
-	* upd：テンプレ更新、（設定画面など）初期値をsub.anの前の方へ
 ]]></description>
 	</exe>
 </update>
