@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.05</versionNumber>
+	<versionNumber>6.06</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.06
+	* bug：一万行近いスクリプトロード時、bgmが途切れる（ものらす氏報告不具合３）
+	* chg：[snapshot]に属性 b_color を追加。
+			省略時はconfig.anprjで指定した背景色、0にすると背景透明に。
+	* chg：[clear_lay]は基本フィルタを消さず、属性 filter（デフォルトfalse）
+			をtrueにした際に消すように。
 6.05
 	* bug：特定条件で描画がおかしくなる不具合（ものらす氏報告不具合Ｄ）
 	* bug：（リ）ロード後、設定画面でconfig.jsのデフォルト値に戻る（〃不具合Ｂ）
@@ -13,7 +19,5 @@
 	* add：システム変数追加、レイヤに指定された b_alpha属性の値を返す。
 		const.an.lay.（レイヤ名）.fore.b_alpha
 	* chg：文字レイヤ背景の不透明度を、レイヤ設定値と sys:TextLayer.Back.Alpha の掛け算とする。
-6.03
-	* chg：6.02不具合修正を手直し
 ]]></description>
 </update>

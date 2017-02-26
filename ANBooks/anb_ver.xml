@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.149</versionNumber>
+	<versionNumber>5.150</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.150
+	* upd：AIRnovel 6.06に更新
 5.149
 	* upd：AIRnovel 6.05に更新
 5.148
 	* bug：「パッケージに含まない」「暗号化しない」「空フォルダ」でエラー・警告が出る不具合修正
-5.147
-	* upd：AIRnovel 6.04に更新
 ]]></description>
 </update>
