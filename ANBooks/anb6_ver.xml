@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.17</version>
+		<version>6.18</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.18（新世代版）
+	* bug：AIRnovelソース更新機能の元となるソースが最新になっていない不具合
 6.17（新世代版）
 	* upd：AIRnovel 6.06に更新
 6.16（新世代版）
 	* upd：AIRnovel 6.05に更新
-6.15（新世代版）
-	* bug：「パッケージに含まない」「暗号化しない」「空フォルダ」でエラー・警告が出る不具合修正
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.17</version>
+		<version>6.18</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.18（新世代版）
+	* bug：AIRnovelソース更新機能の元となるソースが最新になっていない不具合
 6.17（新世代版）
 	* upd：AIRnovel 6.06に更新
 6.16（新世代版）
 	* upd：AIRnovel 6.05に更新
-6.15（新世代版）
-	* bug：「パッケージに含まない」「暗号化しない」「空フォルダ」でエラー・警告が出る不具合修正
 ]]></description>
 	</exe>
 </update>
