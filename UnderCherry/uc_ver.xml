@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.06</versionNumber>
+	<versionNumber>6.07</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.07
+	* bug：内部的に enter_frame イベントが何度も発生し、直後の[return]などで
+			戻り先がおかしくなる場合がある不具合
 6.06
 	* bug：一万行近いスクリプトロード時、bgmが途切れる（ものらす氏報告不具合３）
 	* chg：[snapshot]に属性 b_color を追加。
@@ -15,9 +18,5 @@
 	* add：ループ再生なら効果音もロード時に再現するように（〃不具合１）
 	* del：システム変数 save:const.an.loopBgm 廃止
 	* add：システム変数 save:const.an.sound.（バッファ名）.fn	追加
-6.04
-	* add：システム変数追加、レイヤに指定された b_alpha属性の値を返す。
-		const.an.lay.（レイヤ名）.fore.b_alpha
-	* chg：文字レイヤ背景の不透明度を、レイヤ設定値と sys:TextLayer.Back.Alpha の掛け算とする。
 ]]></description>
 </update>
