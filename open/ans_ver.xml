@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.07</versionNumber>
+	<versionNumber>6.08</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.08
+	* bug：ver6.05 で発生したリソースリークを修正
 6.07
 	* bug：内部的に enter_frame イベントが何度も発生し、直後の[return]などで
 			戻り先がおかしくなる場合がある不具合
@@ -12,11 +14,5 @@
 			省略時はconfig.anprjで指定した背景色、0にすると背景透明に。
 	* chg：[clear_lay]は基本フィルタを消さず、属性 filter（デフォルトfalse）
 			をtrueにした際に消すように。
-6.05
-	* bug：特定条件で描画がおかしくなる不具合（ものらす氏報告不具合Ｄ）
-	* bug：（リ）ロード後、設定画面でconfig.jsのデフォルト値に戻る（〃不具合Ｂ）
-	* add：ループ再生なら効果音もロード時に再現するように（〃不具合１）
-	* del：システム変数 save:const.an.loopBgm 廃止
-	* add：システム変数 save:const.an.sound.（バッファ名）.fn	追加
 ]]></description>
 </update>
