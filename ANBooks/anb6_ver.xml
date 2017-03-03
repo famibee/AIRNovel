@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.20</version>
+		<version>6.21</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.21（新世代版）
+	* upd：AIRNovel 6.09に更新
 6.20（新世代版）
 	* upd：AIRNovel 6.08に更新
 6.19（新世代版）
 	* bug：(略)/Local Store/an/an_sdk/AIRNovel.as がないので追加
 	* upd：AIRNovel 6.07に更新
-6.18（新世代版）
-	* bug：AIRnovelソース更新機能の元となるソースが最新になっていない不具合
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.20</version>
+		<version>6.21</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.21（新世代版）
+	* upd：AIRNovel 6.09に更新
 6.20（新世代版）
 	* upd：AIRNovel 6.08に更新
 6.19（新世代版）
 	* bug：(略)/Local Store/an/an_sdk/AIRNovel.as がないので追加
 	* upd：AIRNovel 6.07に更新
-6.18（新世代版）
-	* bug：AIRnovelソース更新機能の元となるソースが最新になっていない不具合
 ]]></description>
 	</exe>
 </update>

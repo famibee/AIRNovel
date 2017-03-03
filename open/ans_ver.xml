@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.08</versionNumber>
+	<versionNumber>6.09</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.09
+	* bug：ver6.07 で発生した設定画面で右クリックが効かない件を修正
 6.08
 	* bug：ver6.05 で発生したリソースリークを修正
 6.07
 	* bug：内部的に enter_frame イベントが何度も発生し、直後の[return]などで
 			戻り先がおかしくなる場合がある不具合
-6.06
-	* bug：一万行近いスクリプトロード時、bgmが途切れる（ものらす氏報告不具合３）
-	* chg：[snapshot]に属性 b_color を追加。
-			省略時はconfig.anprjで指定した背景色、0にすると背景透明に。
-	* chg：[clear_lay]は基本フィルタを消さず、属性 filter（デフォルトfalse）
-			をtrueにした際に消すように。
 ]]></description>
 </update>
