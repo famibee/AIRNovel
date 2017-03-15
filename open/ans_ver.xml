@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.10</versionNumber>
+	<versionNumber>6.11</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.11
+	* bug：長いスクリプトLoad時にBGMを再開（しかけて）できない場合がある不具合
+	* upd：Apache Flex 4.16.0＆AIR SDK 25.0.0.134 にてビルド
 6.10
 	* bug：enter_frameイベントがglobal=trueやcall=trueでも1度しか発生しない
 6.09
 	* bug：ver6.07 で発生した設定画面で右クリックが効かない件を修正
-6.08
-	* bug：ver6.05 で発生したリソースリークを修正
 ]]></description>
 </update>
