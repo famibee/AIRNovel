@@ -2,33 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.25</version>
+		<version>6.26</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.26（新世代版）
+	* upd：AIRNovel 6.12に更新
 6.25（新世代版）
 	* upd：AIRNovel 6.11に更新
 6.24（新世代版）
 	* add：詳細モード復活、スクリプトを表示して停止箇所・エラー箇所を明示するように
 	* upd：AIRNovel 6.10に更新
-6.23（新世代版）
-	* del：ver 6.22 の変更削除
-	* bug：（Windowsのみ）プロジェクト新規作成して詳細画面に入るとconfig.anprjファイルが破損する不具合
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.25</version>
+		<version>6.26</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.26（新世代版）
+	* upd：AIRNovel 6.12に更新
 6.25（新世代版）
 	* upd：AIRNovel 6.11に更新
 6.24（新世代版）
 	* add：詳細モード復活、スクリプトを表示して停止箇所・エラー箇所を明示するように
 	* upd：AIRNovel 6.10に更新
-6.23（新世代版）
-	* del：ver 6.22 の変更削除
-	* bug：（Windowsのみ）プロジェクト新規作成して詳細画面に入るとconfig.anprjファイルが破損する不具合
 ]]></description>
 	</exe>
 </update>
