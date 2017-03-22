@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.13</versionNumber>
+	<versionNumber>6.14</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.14
+	* upd：Apache Flex 4.16.0＆AIR SDK 25.0.0.134＆Apache Ant 1.10.1 にてビルド
 6.13
 	* bug：[load]でfn・label使用時、長い本文スクリプトだとBGMが途切れる不具合
 6.12
 	* bug：[playbgm volume=0 loop=true ret_ms=アリ]の時、二周目以降再生音量が0に
 			なってしまう（その後音量を１にしていても、最初の指定に戻してしまう）
-6.11
-	* bug：長いスクリプトLoad時にBGMを再開（しかけて）できない場合がある不具合
-	* upd：Apache Flex 4.16.0＆AIR SDK 25.0.0.134 にてビルド
 ]]></description>
 </update>

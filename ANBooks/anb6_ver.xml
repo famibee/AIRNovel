@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.27</version>
+		<version>6.28</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.28（新世代版）
+	* upd：Apache Flex 4.16.0＆AIR SDK 25.0.0.134＆Apache Ant 1.10.1 にてビルド
 6.27（新世代版）
 	* upd：AIRNovel 6.13に更新
 6.26（新世代版）
 	* upd：AIRNovel 6.12に更新
-6.25（新世代版）
-	* upd：AIRNovel 6.11に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.27</version>
+		<version>6.28</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.28（新世代版）
+	* upd：Apache Flex 4.16.0＆AIR SDK 25.0.0.134＆Apache Ant 1.10.1 にてビルド
 6.27（新世代版）
 	* upd：AIRNovel 6.13に更新
 6.26（新世代版）
 	* upd：AIRNovel 6.12に更新
-6.25（新世代版）
-	* upd：AIRNovel 6.11に更新
 ]]></description>
 	</exe>
 </update>
