@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.15</versionNumber>
+	<versionNumber>6.16</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.16
+	* bug：ムービーレイヤで暗号化動画再生時、ランタイムエラー #2123 が発生していた
 6.15
 	* chg：[load]で複数ループ音声を再開する場合、画面暗転で停止する場合がある件
 6.14
 	* upd：Apache Flex 4.16.0＆AIR SDK 25.0.0.134＆Apache Ant 1.10.1 にてビルド
-6.13
-	* bug：[load]でfn・label使用時、長い本文スクリプトだとBGMが途切れる不具合
 ]]></description>
 </update>
