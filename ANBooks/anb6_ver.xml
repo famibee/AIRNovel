@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.33</version>
+		<version>6.34</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.34（新世代版）
+	* upd：表示部更新忘れ
 6.33（新世代版）
 	* upd：AIRNovel 6.18に更新
 	* upd：ビルド環境を AIR SDK 26 に更新
 6.32（新世代版）
 	* upd：AIRNovel 6.17に更新
-6.31（新世代版）
-	* upd：AIRNovel 6.16に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.33</version>
+		<version>6.34</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.34（新世代版）
+	* upd：表示部更新忘れ
 6.33（新世代版）
 	* upd：AIRNovel 6.18に更新
 	* upd：ビルド環境を AIR SDK 26 に更新
 6.32（新世代版）
 	* upd：AIRNovel 6.17に更新
-6.31（新世代版）
-	* upd：AIRNovel 6.16に更新
 ]]></description>
 	</exe>
 </update>
