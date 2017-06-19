@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.18</versionNumber>
+	<versionNumber>6.19</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.19
+	* bug：モバイル環境で、[lay]でb_alphaだけ指定すると、backが縦横二倍ずつ広がる
 6.18
 	* bug：[load]で複数ループ音声を再開する際の不具合対策
 6.17
 	* bug：ムービーレイヤで短い暗号化動画再生時、終了を検知できない場合があった件
-6.16
-	* bug：ムービーレイヤで暗号化動画再生時、ランタイムエラー #2123 が発生していた
 ]]></description>
 </update>
