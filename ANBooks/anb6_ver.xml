@@ -2,31 +2,33 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.37</version>
+		<version>6.38</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.38（新世代版）
+	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
+	* upd：AIRNovel 6.20に更新
 6.37（新世代版）
 	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
 	* upd：AIRNovel 6.19に更新
 6.36（新世代版）
 	* upd：iOSビルドの不具合修正（ipaが実機転送できない・AppStoreに登録できない）
-6.35（新世代版）
-	* upd：表示部更新ミス
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.37</version>
+		<version>6.38</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.38（新世代版）
+	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
+	* upd：AIRNovel 6.20に更新
 6.37（新世代版）
 	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
 	* upd：AIRNovel 6.19に更新
 6.36（新世代版）
 	* upd：iOSビルドの不具合修正（ipaが実機転送できない・AppStoreに登録できない）
-6.35（新世代版）
-	* upd：表示部更新ミス
 ]]></description>
 	</exe>
 </update>
