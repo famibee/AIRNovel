@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.165</version>
+		<version>5.166</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.166
+	* upd：AIRNovel 6.21に更新
 5.165
 	* upd：AIRNovel 6.20に更新
 5.164
 	* upd：AIRNovel 6.19に更新
-5.163
-	* upd：iOSビルドの不具合修正（ipaが実機転送できない・AppStoreに登録できない）
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.165</version>
+		<version>5.166</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.166
+	* upd：AIRNovel 6.21に更新
 5.165
 	* upd：AIRNovel 6.20に更新
 5.164
 	* upd：AIRNovel 6.19に更新
-5.163
-	* upd：iOSビルドの不具合修正（ipaが実機転送できない・AppStoreに登録できない）
 ]]></description>
 	</exe>
 </update>

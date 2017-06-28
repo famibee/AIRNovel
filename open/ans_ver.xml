@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.20</versionNumber>
+	<versionNumber>6.21</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.21
+	* add：[event]に通常キーと修飾キーの組み合わせを予約する記法を追加。
+		例えば key=alt+enter なら、key=enter とは別にイベント予約できる。
+		その他は key=alt+ctrl+shift+enter と修飾キー三種、ABC順に + で繋げる。
 6.20
 	* add：組み込み変数 const.an.key.alternate追加
 			ALTキー（MacならOptionキー）が押されているかのBool値。
 6.19
 	* bug：モバイル環境で、[lay]でb_alphaだけ指定すると、backが縦横二倍ずつ広がる
-6.18
-	* bug：[load]で複数ループ音声を再開する際の不具合対策
 ]]></description>
 </update>
