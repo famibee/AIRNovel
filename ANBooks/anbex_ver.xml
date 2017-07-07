@@ -2,29 +2,33 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.166</version>
+		<version>5.167</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.167
+	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
+	* upd：FHDテンプレ更新：Mnu_InfoThumb.swf が小さいので差替
+	* add：/Work/システム/system/Mnu_InfoThumb.fla 追加
 5.166
 	* upd：AIRNovel 6.21に更新
 5.165
 	* upd：AIRNovel 6.20に更新
-5.164
-	* upd：AIRNovel 6.19に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.166</version>
+		<version>5.167</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.167
+	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
+	* upd：FHDテンプレ更新：Mnu_InfoThumb.swf が小さいので差替
+	* add：/Work/システム/system/Mnu_InfoThumb.fla 追加
 5.166
 	* upd：AIRNovel 6.21に更新
 5.165
 	* upd：AIRNovel 6.20に更新
-5.164
-	* upd：AIRNovel 6.19に更新
 ]]></description>
 	</exe>
 </update>

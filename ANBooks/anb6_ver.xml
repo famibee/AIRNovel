@@ -2,9 +2,13 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.39</version>
+		<version>6.40</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.40（新世代版）
+	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
+	* upd：FHDテンプレ更新：Mnu_InfoThumb.swf が小さいので差替
+	* add：/Work/システム/system/Mnu_InfoThumb.fla 追加
 6.39（新世代版）
 	* bug：テンプレ更新（main.an）：本文中でALT + ENTER が効かない件
 		（key=enter が発生し、読み進めてしまっていた）
@@ -12,17 +16,18 @@
 6.38（新世代版）
 	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
 	* upd：AIRNovel 6.20に更新
-6.37（新世代版）
-	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
-	* upd：AIRNovel 6.19に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.39</version>
+		<version>6.40</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.40（新世代版）
+	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
+	* upd：FHDテンプレ更新：Mnu_InfoThumb.swf が小さいので差替
+	* add：/Work/システム/system/Mnu_InfoThumb.fla 追加
 6.39（新世代版）
 	* bug：テンプレ更新（main.an）：本文中でALT + ENTER が効かない件
 		（key=enter が発生し、読み進めてしまっていた）
@@ -30,9 +35,6 @@
 6.38（新世代版）
 	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
 	* upd：AIRNovel 6.20に更新
-6.37（新世代版）
-	* bug：モバイル版テンプレ更新：シナリオ終了時テキストウインドウが残る件
-	* upd：AIRNovel 6.19に更新
 ]]></description>
 	</exe>
 </update>
