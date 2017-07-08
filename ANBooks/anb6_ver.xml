@@ -2,9 +2,13 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.41</version>
+		<version>6.42</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.42（新世代版）
+	* upd：テンプレ更新：ext_voice.an削除、[se]定義は sub.an に移動
+	* upd：暗号化ファイルが有るのにソースがないときにエラー停止するように
+	* upd：AIRNovel 6.23に更新
 6.41（新世代版）
 	* bug：テンプレ更新：ext_voice.an更新（2017.7.7.002）カウンタ初期化追記を促す
 	* upd：AIRNovel 6.22に更新
@@ -12,18 +16,18 @@
 	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
 	* upd：FHDテンプレ更新：Mnu_InfoThumb.swf が小さいので差替
 	* add：/Work/システム/system/Mnu_InfoThumb.fla 追加
-6.39（新世代版）
-	* bug：テンプレ更新（main.an）：本文中でALT + ENTER が効かない件
-		（key=enter が発生し、読み進めてしまっていた）
-	* upd：AIRNovel 6.21に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.41</version>
+		<version>6.42</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.42（新世代版）
+	* upd：テンプレ更新：ext_voice.an削除、[se]定義は sub.an に移動
+	* upd：暗号化ファイルが有るのにソースがないときにエラー停止するように
+	* upd：AIRNovel 6.23に更新
 6.41（新世代版）
 	* bug：テンプレ更新：ext_voice.an更新（2017.7.7.002）カウンタ初期化追記を促す
 	* upd：AIRNovel 6.22に更新
@@ -31,10 +35,6 @@
 	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
 	* upd：FHDテンプレ更新：Mnu_InfoThumb.swf が小さいので差替
 	* add：/Work/システム/system/Mnu_InfoThumb.fla 追加
-6.39（新世代版）
-	* bug：テンプレ更新（main.an）：本文中でALT + ENTER が効かない件
-		（key=enter が発生し、読み進めてしまっていた）
-	* upd：AIRNovel 6.21に更新
 ]]></description>
 	</exe>
 </update>
