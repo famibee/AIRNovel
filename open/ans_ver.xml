@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.21</versionNumber>
+	<versionNumber>6.22</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.22
+	* bug：「Iconr」という名のFinderのフォルダアイコンのファイルを無視するように
+			（MkPathも同様に修正）
 6.21
 	* add：[event]に通常キーと修飾キーの組み合わせを予約する記法を追加。
 		例えば key=alt+enter なら、key=enter とは別にイベント予約できる。
@@ -10,7 +13,5 @@
 6.20
 	* add：組み込み変数 const.an.key.alternate追加
 			ALTキー（MacならOptionキー）が押されているかのBool値。
-6.19
-	* bug：モバイル環境で、[lay]でb_alphaだけ指定すると、backが縦横二倍ずつ広がる
 ]]></description>
 </update>
