@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.170</version>
+		<version>5.171</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.171
+	* いえのかぎ制作中更新反映（詳細はブログで）
 5.170
-	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
+	* upd：テンプレ更新：plgTweensy.swf、ext_fg.an、ext_fg2.an更新
 5.169
 	* upd：AIRNovel 6.23に更新
-5.168
-	* upd：AIRNovel 6.22に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>5.170</version>
+		<version>5.171</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.171
+	* いえのかぎ制作中更新反映（詳細はブログで）
 5.170
-	* upd：テンプレ更新：ext_voice.an 実制作での使いやすさを反映した更新
+	* upd：テンプレ更新：plgTweensy.swf、ext_fg.an、ext_fg2.an更新
 5.169
 	* upd：AIRNovel 6.23に更新
-5.168
-	* upd：AIRNovel 6.22に更新
 ]]></description>
 	</exe>
 </update>
