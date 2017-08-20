@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.24</versionNumber>
+	<versionNumber>6.25</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.25
+	* bug：言語別anを準備した際、言語を切り替えても最初に読み込んだスクリプトのキャッシュを使ってしまう不具合
 6.24
 	* いえのかぎ制作中更新反映（詳細はブログで）
 6.23
 	* add：マクロ重複定義エラー時、先に定義したスクリプト名などを表示するように
 	* add：プラグインによるタグ追加時にも、上記詳細エラーを表示するように
-6.22
-	* bug：「Iconr」という名のFinderのフォルダアイコンのファイルを無視するように
-			（MkPathも同様に修正）
 ]]></description>
 </update>

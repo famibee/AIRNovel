@@ -2,31 +2,33 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.46</version>
+		<version>6.47</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.47（新世代版）
+	* upd：[macro]マクロ内で[macro]定義禁止したが、多言語テンプレでエラーになるので禁止取消
+	* upd：多言語版テンプレ更新：全言語全部入りスクリプトは例とし、日本語とそれ以外のスクリプトを分ける形式で。
+	* upd：AIRNovel 6.25に更新
 6.46（新世代版）
 	* upd：更新ミス上げなおし
 6.45（新世代版）
 	* いえのかぎ制作中更新反映（詳細はブログで）
-6.44（新世代版）
-	* upd：テンプレ更新：Tweensy.swf、ext_fg.an、ext_fg2.an更新
-	* bug：*.anbook生成機能で「anbookだけに含む」が効かず含まれない不具合
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.46</version>
+		<version>6.47</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.47（新世代版）
+	* upd：[macro]マクロ内で[macro]定義禁止したが、多言語テンプレでエラーになるので禁止取消
+	* upd：多言語版テンプレ更新：全言語全部入りスクリプトは例とし、日本語とそれ以外のスクリプトを分ける形式で。
+	* upd：AIRNovel 6.25に更新
 6.46（新世代版）
 	* upd：更新ミス上げなおし
 6.45（新世代版）
 	* いえのかぎ制作中更新反映（詳細はブログで）
-6.44（新世代版）
-	* upd：テンプレ更新：Tweensy.swf、ext_fg.an、ext_fg2.an更新
-	* bug：*.anbook生成機能で「anbookだけに含む」が効かず含まれない不具合
 ]]></description>
 	</exe>
 </update>
