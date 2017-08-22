@@ -2,33 +2,35 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.48</version>
+		<version>6.49</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.49（新世代版）
+	* bug：タイミングによって発生する、項目変更が反映されない不具合
+	* upd：AIRNovel 6.26に更新
 6.48（新世代版）
 	（テンプレ更新）（詳細はブログで）
 6.47（新世代版）
 	* upd：[macro]マクロ内で[macro]定義禁止したが、多言語テンプレでエラーになるので禁止取消
 	* upd：多言語版テンプレ更新：全言語全部入りスクリプトは例とし、日本語とそれ以外のスクリプトを分ける形式で。
 	* upd：AIRNovel 6.25に更新
-6.46（新世代版）
-	* upd：更新ミス上げなおし
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.48</version>
+		<version>6.49</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.49（新世代版）
+	* bug：タイミングによって発生する、項目変更が反映されない不具合
+	* upd：AIRNovel 6.26に更新
 6.48（新世代版）
 	（テンプレ更新）（詳細はブログで）
 6.47（新世代版）
 	* upd：[macro]マクロ内で[macro]定義禁止したが、多言語テンプレでエラーになるので禁止取消
 	* upd：多言語版テンプレ更新：全言語全部入りスクリプトは例とし、日本語とそれ以外のスクリプトを分ける形式で。
 	* upd：AIRNovel 6.25に更新
-6.46（新世代版）
-	* upd：更新ミス上げなおし
 ]]></description>
 	</exe>
 </update>
