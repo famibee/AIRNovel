@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.175</versionNumber>
+	<versionNumber>5.176</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.176
+	* upd：AIRNovel 6.28に更新
 5.175
 	* upd：AIRNovel 6.27に更新
 	（テンプレ更新）（詳細はブログで）
 5.174
 	* upd：AIRNovel 6.26に更新
-5.173
-	（テンプレ更新）（詳細はブログで）
 ]]></description>
 </update>
