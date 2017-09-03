@@ -2,33 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>6.51</version>
+		<version>6.52</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.dmg</url>
 	<description><![CDATA[
+6.52（新世代版）
+	* upd：AIRNovel 6.29に更新
 6.51（新世代版）
 	* upd：AIRNovel 6.28に更新
 6.50（新世代版）
 	* upd：ext_voice.an更新、それにともないテンプレ更新
 	* upd：AIRNovel 6.27に更新
-6.49（新世代版）
-	* bug：タイミングによって発生する、項目変更が反映されない不具合
-	* upd：AIRNovel 6.26に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>6.51</version>
+		<version>6.52</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks6.exe</url>
 	<description><![CDATA[
+6.52（新世代版）
+	* upd：AIRNovel 6.29に更新
 6.51（新世代版）
 	* upd：AIRNovel 6.28に更新
 6.50（新世代版）
 	* upd：ext_voice.an更新、それにともないテンプレ更新
 	* upd：AIRNovel 6.27に更新
-6.49（新世代版）
-	* bug：タイミングによって発生する、項目変更が反映されない不具合
-	* upd：AIRNovel 6.26に更新
 ]]></description>
 	</exe>
 </update>

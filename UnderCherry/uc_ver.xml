@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.28</versionNumber>
+	<versionNumber>6.29</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.29
+	* upd：桜サンプル更新用（an_sdkは同等）
 6.28
 	* bug：半角文字ルビで欠ける場合がある不具合
 6.27
 	* bug：ボイス再生停止に失敗する場合がある不具合
 	* add：[playse]にキャッシュをしない設定 cache=false を追加。
-6.26
-	* bug：同じ場所で二回[reload_script]やるとBGM止まる不具合
-	* add：[record_place]でレイヤ・プラグインの重なり順を保存・[load]で復帰するように
 ]]></description>
 </update>
