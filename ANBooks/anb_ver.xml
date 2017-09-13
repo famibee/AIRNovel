@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>5.180</versionNumber>
+	<versionNumber>5.181</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.air</url>
 	<description><![CDATA[
+5.181（旧世代版）
+	* upd：更新失敗、上げなおし
 5.180（旧世代版）
 	* upd：Adobe AIR 27、electron v1.6.11→1.7.6に更新
 5.179

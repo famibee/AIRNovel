@@ -2,9 +2,11 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>5.180</version>
+		<version>5.181</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.dmg</url>
 	<description><![CDATA[
+5.181（旧世代版）
+	* upd：更新失敗、上げなおし
 5.180（旧世代版）
 	* upd：Adobe AIR 27、electron v1.6.11→1.7.6に更新
 5.179
@@ -16,9 +18,11 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>5.180</version>
+		<version>5.181</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks.exe</url>
 	<description><![CDATA[
+5.181（旧世代版）
+	* upd：更新失敗、上げなおし
 5.180（旧世代版）
 	* upd：Adobe AIR 27、electron v1.6.11→1.7.6に更新
 5.179
