@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.01</version>
+		<version>7.02</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.02（現行版）
+	* upd：windowsでビルドや疑似環境実行が出来ない件
 7.01（現行版）
 	* upd：AIRNovel 6.32に更新
 7.0（現行版）
 	* upd：開発環境を変え全面作り直し
 	* upd：ver 6.**までと表示部関連ファイルを切り分け
-6.57（現行版）
-	* upd：更新失敗、上げなおし
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.01</version>
+		<version>7.02</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.02（現行版）
+	* upd：windowsでビルドや疑似環境実行が出来ない件
 7.01（現行版）
 	* upd：AIRNovel 6.32に更新
 7.0（現行版）
 	* upd：開発環境を変え全面作り直し
 	* upd：ver 6.**までと表示部関連ファイルを切り分け
-6.57（現行版）
-	* upd：更新失敗、上げなおし
 ]]></description>
 	</exe>
 </update>
