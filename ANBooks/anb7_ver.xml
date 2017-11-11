@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.07</version>
+		<version>7.08</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.08（現行版）
+	* upd：メニューをつけないとショートカットでコピペ出来ないので追加
 7.07（現行版）
 	* upd：AIRNovel 6.34に更新
 7.06（現行版）
 	* bug：アイコンドラッグが出来ない件
 	* upd：テンプレ更新：main.an(*title_menu)のレイヤ指定を変数に統一
-7.05（現行版）
-	* bug：詳細画面テキスト変更時、フォーカスが外れてから表示・ファイル更新させる
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.07</version>
+		<version>7.08</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.08（現行版）
+	* upd：メニューをつけないとショートカットでコピペ出来ないので追加
 7.07（現行版）
 	* upd：AIRNovel 6.34に更新
 7.06（現行版）
 	* bug：アイコンドラッグが出来ない件
 	* upd：テンプレ更新：main.an(*title_menu)のレイヤ指定を変数に統一
-7.05（現行版）
-	* bug：詳細画面テキスト変更時、フォーカスが外れてから表示・ファイル更新させる
 ]]></description>
 	</exe>
 </update>
