@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.33</versionNumber>
+	<versionNumber>6.34</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.34
+	* bug：fn属性つき[load]で発生するエラーの件
 6.33
 	* bug：大文字拡張子が使えない件
 6.32
 	* bug：m4a再生でfadeoutbgmが効かない不具合
-6.31
-	* upd：[xchgbuf]すると[fadebgm]など効かなくなる不具合
 ]]></description>
 </update>
