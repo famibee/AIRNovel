@@ -2,31 +2,31 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.12</version>
+		<version>7.13</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.13（現行版）
+	* upd：多言語版テンプレ更新：右クリックメニューで背景画像が薄い件
 7.12（現行版）
 	* bug：テンプレ修正：sub.anのマクロ[h_save]と*h_jmp内で、変数placeは_sl.placeを使うように
 7.11（現行版）
 	* chg：log.htmと表示に必要なファイルをlogフォルダにまとめるように。
 	* chg：「ログを削除」ボタンでターミナルウインドウ表題にメッセージを。
-7.10（現行版）
-	* bug：二回目以降の（ant air_add_oldsign）で古い署名を上書きする不具合
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.12</version>
+		<version>7.13</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.13（現行版）
+	* upd：多言語版テンプレ更新：右クリックメニューで背景画像が薄い件
 7.12（現行版）
 	* bug：テンプレ修正：sub.anのマクロ[h_save]と*h_jmp内で、変数placeは_sl.placeを使うように
 7.11（現行版）
 	* chg：log.htmと表示に必要なファイルをlogフォルダにまとめるように。
 	* chg：「ログを削除」ボタンでターミナルウインドウ表題にメッセージを。
-7.10（現行版）
-	* bug：二回目以降の（ant air_add_oldsign）で古い署名を上書きする不具合
 ]]></description>
 	</exe>
 </update>
