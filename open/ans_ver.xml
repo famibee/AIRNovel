@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.35</versionNumber>
+	<versionNumber>6.36</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.36
+	* add：文字レイヤ背景の不透明度を b_alpha 属性値そのものにする属性 b_alpha_isfixed=true 追加
 6.35
 	* bug：[graph]を多言語テンプレで使用するとエラーになるケースがある不具合
 	* bug：[graph]で存在しない「fontFamily= 指定ですが〜」フォントが無いエラーになる不具合。全角半角空白はフォントチェックしないように。
 6.34
 	* bug：fn属性つき[load]で発生するエラーの件
-6.33
-	* bug：大文字拡張子が使えない件
 ]]></description>
 </update>
