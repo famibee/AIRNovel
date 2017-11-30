@@ -2,35 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.17</version>
+		<version>7.18</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.18（現行版）
+	* upd：ext_voice.an更新、それを含むテンプレ更新
 7.17（現行版）
 	* bug：多言語版テンプレ修正、再開時に設定画面の言語が日本語などに戻る
 7.16（現行版）
 	* upd：AIRNovel 6.39に更新
-7.15（現行版）
-	* chg：テンプレ更新(_submenu.an)：ESCキーでも右クリックメニュー
-	* chg：テンプレ更新(_hidetext.an)：Spaceキーでも文字消・表示
-	* chg：テンプレ更新(_history.an)：PAGE DOWN・PAGE UPでもバックログ表示
-	* upd：AIRNovel 6.38に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.17</version>
+		<version>7.18</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.18（現行版）
+	* upd：ext_voice.an更新、それを含むテンプレ更新
 7.17（現行版）
 	* bug：多言語版テンプレ修正、再開時に設定画面の言語が日本語などに戻る
 7.16（現行版）
 	* upd：AIRNovel 6.39に更新
-7.15（現行版）
-	* chg：テンプレ更新(_submenu.an)：ESCキーでも右クリックメニュー
-	* chg：テンプレ更新(_hidetext.an)：Spaceキーでも文字消・表示
-	* chg：テンプレ更新(_history.an)：PAGE DOWN・PAGE UPでもバックログ表示
-	* upd：AIRNovel 6.38に更新
 ]]></description>
 	</exe>
 </update>
