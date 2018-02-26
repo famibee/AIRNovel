@@ -2,31 +2,33 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.20</version>
+		<version>7.21</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.21（現行版）
+	* bug：多言語テンプレ修正：言語切り替え関係
+	* upd：多言語テンプレ修正：ボタン・ext_mes.an・_config.jpg など正確な翻訳反映
 7.20（現行版）
 	* bug：anbzip開けない件修正
 	* upd：多言語テンプレ修正：_history.an冒頭のフォント指定を*show_history以降に
 7.19（現行版）
 	* upd：ライブラリをAIR SDK 28、Flex SDK 4.16.1に更新
-7.18（現行版）
-	* upd：ext_voice.an更新、それを含むテンプレ更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.20</version>
+		<version>7.21</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.21（現行版）
+	* bug：多言語テンプレ修正：言語切り替え関係
+	* upd：多言語テンプレ修正：ボタン・ext_mes.an・_config.jpg など正確な翻訳反映
 7.20（現行版）
 	* bug：anbzip開けない件修正
 	* upd：多言語テンプレ修正：_history.an冒頭のフォント指定を*show_history以降に
 7.19（現行版）
 	* upd：ライブラリをAIR SDK 28、Flex SDK 4.16.1に更新
-7.18（現行版）
-	* upd：ext_voice.an更新、それを含むテンプレ更新
 ]]></description>
 	</exe>
 </update>
