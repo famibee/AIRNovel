@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.40</versionNumber>
+	<versionNumber>6.41</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.41
+	* bug：動画ループがちらついたり、止まったり、消えたりする不具合修正
+	* chg：ムービーレイヤ[lay]でfn属性がない場合は動画再生をやり直さないよう変更
+	* bug：ムービーレイヤ[lay]でvolume属性変更時にボリュームが変更されない不具合修正
 6.40
 	* bug：Winのみ、alt+enterイベントで全画面からウインドウモードに戻ると、ウインドウサイズが画面一杯になる件
 6.39
 	* bug：CommandキーでなくCtrlキーでメッセージ強制スキップするように
-6.38
-	* chg：Spaceキーで文字読み進めしないように
-	* chg：Ctrlキーでメッセージ強制スキップ。キーを離すとスキップ終了するように
 ]]></description>
 </update>
