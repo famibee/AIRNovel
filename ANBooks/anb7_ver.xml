@@ -2,33 +2,33 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.25</version>
+		<version>7.26</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.26（現行版）
+	* upd：AIRNovel 6.42に更新
 7.25（新世代版）
 	* upd：AIRNovel 6.41に更新
 7.24（現行版）
 	* bug：【最初に呼び出すスクリプト】〜【アプリウインドウの高さ】が変更できない件
 	* bug：テンプレ更新・多言語 main.an：[sys_resume_load]の前に[_cfg.lang]を移動
 	* bug：テンプレ更新・多言語 _config.an：*main(87行目付近)の [_cfg.lang] 削除
-7.23（新世代版）
-	* upd：AIRNovel 6.40に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.25</version>
+		<version>7.26</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.26（現行版）
+	* upd：AIRNovel 6.42に更新
 7.25（新世代版）
 	* upd：AIRNovel 6.41に更新
 7.24（現行版）
 	* bug：【最初に呼び出すスクリプト】〜【アプリウインドウの高さ】が変更できない件
 	* bug：テンプレ更新・多言語 main.an：[sys_resume_load]の前に[_cfg.lang]を移動
 	* bug：テンプレ更新・多言語 _config.an：*main(87行目付近)の [_cfg.lang] 削除
-7.23（新世代版）
-	* upd：AIRNovel 6.40に更新
 ]]></description>
 	</exe>
 </update>
