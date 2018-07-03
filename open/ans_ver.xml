@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.43</versionNumber>
+	<versionNumber>6.44</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.44
+	* bug：[stopfadese]を直接或いは内部的に呼ばれた際、[wt]でフリーズする不具合（ver 6.42で発生）
 6.43
 	* chg：[trace]、あまりエラーを出さずなるべくそのまま表示するように。
 	* chg：[trace]、空文字等ならその旨を分かりやすく
@@ -10,9 +12,5 @@
 	* bug：[if]の中では行番号がおかしくなる件
 6.42
 	* chg：リファクタリング。ムービーレイヤとm4aを同じ処理で再生するように。
-6.41
-	* bug：動画ループがちらついたり、止まったり、消えたりする不具合修正
-	* chg：ムービーレイヤ[lay]でfn属性がない場合は動画再生をやり直さないよう変更
-	* bug：ムービーレイヤ[lay]でvolume属性変更時にボリュームが変更されない不具合修正
 ]]></description>
 </update>
