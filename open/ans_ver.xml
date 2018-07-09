@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.44</versionNumber>
+	<versionNumber>6.45</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.45
+	* bug：[button enterse=]で、m4aが再生されない不具合
 6.44
 	* bug：[stopfadese]を直接或いは内部的に呼ばれた際、[wt]でフリーズする不具合（ver 6.42で発生）
 6.43
@@ -10,7 +12,5 @@
 	* chg：[trace]、空文字等ならその旨を分かりやすく
 	* chg：[trace]、呼ばれた位置のスクリプト名と行番号を表示するように
 	* bug：[if]の中では行番号がおかしくなる件
-6.42
-	* chg：リファクタリング。ムービーレイヤとm4aを同じ処理で再生するように。
 ]]></description>
 </update>
