@@ -2,11 +2,12 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.37</version>
+		<version>7.39</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
-7.37,7.34（現行版）
+7.39,7.34（現行版）
 	* upd：ライブラリ更新
+	* bug：実行時エラーでビルドなどに失敗していた
 7.33（現行版）
 	* upd：Adobe AIR 30に更新
 7.32（現行版）
@@ -16,11 +17,12 @@
 
 	<!-- Win update -->
 	<exe>
-		<version>7.37</version>
+		<version>7.39</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
-7.37,7.34（現行版）
+7.39,7.34（現行版）
 	* upd：ライブラリ更新
+	* bug：実行時エラーでビルドなどに失敗していた
 7.33（現行版）
 	* upd：Adobe AIR 30に更新
 7.32（現行版）
