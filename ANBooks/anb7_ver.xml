@@ -2,31 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.31</version>
+		<version>7.32</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.32（現行版）
+	* upd：AIRNovel 6.46に更新
 7.31（現行版）
 	* upd：AIRNovel 6.45に更新
 7.30（現行版）
 	* upd：AIRNovel 6.44に更新
-7.29（現行版）
-	* upd：unzipライブラリをadm-zipに変更
-	* upd：AIRNovel 6.43に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.31</version>
+		<version>7.32</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.32（現行版）
+	* upd：AIRNovel 6.46に更新
 7.31（現行版）
 	* upd：AIRNovel 6.45に更新
 7.30（現行版）
 	* upd：AIRNovel 6.44に更新
-7.29（現行版）
-	* upd：unzipライブラリをadm-zipに変更
-	* upd：AIRNovel 6.43に更新
 ]]></description>
 	</exe>
 </update>
