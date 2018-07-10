@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.33</version>
+		<version>7.34</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.34（現行版）
+	* upd：ライブラリ更新
 7.33（現行版）
 	* upd：Adobe AIR 30に更新
 7.32（現行版）
 	* upd：AIRNovel 6.46に更新
-7.31（現行版）
-	* upd：AIRNovel 6.45に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.33</version>
+		<version>7.34</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.34（現行版）
+	* upd：ライブラリ更新
 7.33（現行版）
 	* upd：Adobe AIR 30に更新
 7.32（現行版）
 	* upd：AIRNovel 6.46に更新
-7.31（現行版）
-	* upd：AIRNovel 6.45に更新
 ]]></description>
 	</exe>
 </update>
