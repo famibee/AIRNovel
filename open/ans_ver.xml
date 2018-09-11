@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.46</versionNumber>
+	<versionNumber>6.47</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/open/ans.air</url>
 	<description><![CDATA[
+6.47
+	* bug：ムービーレイヤの[lay]でfn属性省略後、エラーになる件
 6.46
 	* bug：[endif]周りで、行番号がおかしくなる件
 6.45
 	* bug：[button enterse=]で、m4aが再生されない不具合
-6.44
-	* bug：[stopfadese]を直接或いは内部的に呼ばれた際、[wt]でフリーズする不具合（ver 6.42で発生）
 ]]></description>
 </update>
