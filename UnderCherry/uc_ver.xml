@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/2.5">
-	<versionNumber>6.47</versionNumber>
+	<versionNumber>6.48</versionNumber>
 	<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/UnderCherry/uc.air</url>
 	<description><![CDATA[
+6.48
+	* bug：[ws]時、再生終了後に再生終了状態にしてないため再度[ws]すると再生終了を待ち続ける。
 6.47
 	* bug：ムービーレイヤの[lay]でfn属性省略後、エラーになる件
 6.46
 	* bug：[endif]周りで、行番号がおかしくなる件
-6.45
-	* bug：[button enterse=]で、m4aが再生されない不具合
 ]]></description>
 </update>

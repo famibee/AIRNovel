@@ -2,31 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.42</version>
+		<version>7.43</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.43（現行版）
+	* upd：AIRNovel 6.48に更新
 7.42（現行版）
 	* upd：「ant air_b」に関してbuild.xmlを修正。102行dirを「${app_name}b/Adobe AIR/Versions/1.0」に。
 7.41（現行版）
 	* upd：AIRNovel 6.47に更新
-7.40（現行版）
-	* upd：テンプレ更新：[txt_lay_〜]系マクロでno_sysmenu_draw=trueしても、
-		一部のメニューボタンが消えない件
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.42</version>
+		<version>7.43</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.43（現行版）
+	* upd：AIRNovel 6.48に更新
 7.42（現行版）
 	* upd：「ant air_b」に関してbuild.xmlを修正。102行dirを「${app_name}b/Adobe AIR/Versions/1.0」に。
 7.41（現行版）
 	* upd：AIRNovel 6.47に更新
-7.40（現行版）
-	* upd：テンプレ更新：[txt_lay_〜]系マクロでno_sysmenu_draw=trueしても、
-		一部のメニューボタンが消えない件
 ]]></description>
 	</exe>
 </update>
