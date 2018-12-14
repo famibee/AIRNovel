@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.44</version>
+		<version>7.45</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.45（現行版）
+	* upd：build_base.xml最新が反映されない環境があるようなので更新
 7.44（現行版）
 	* bug：ダウンロードが正しく終了しなかった不具合（Noty〜onClose()スタックオーバーフロー）
 7.43（現行版）
 	* upd：AIRNovel 6.48に更新
-7.42（現行版）
-	* upd：「ant air_b」に関してbuild.xmlを修正。102行dirを「${app_name}b/Adobe AIR/Versions/1.0」に。
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.44</version>
+		<version>7.45</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.45（現行版）
+	* upd：build_base.xml最新が反映されない環境があるようなので更新
 7.44（現行版）
 	* bug：ダウンロードが正しく終了しなかった不具合（Noty〜onClose()スタックオーバーフロー）
 7.43（現行版）
 	* upd：AIRNovel 6.48に更新
-7.42（現行版）
-	* upd：「ant air_b」に関してbuild.xmlを修正。102行dirを「${app_name}b/Adobe AIR/Versions/1.0」に。
 ]]></description>
 	</exe>
 </update>
