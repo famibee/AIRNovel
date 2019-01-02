@@ -2,29 +2,29 @@
 <update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
 	<!-- Mac update -->
 	<dmg>
-		<version>7.45</version>
+		<version>7.46</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.dmg</url>
 	<description><![CDATA[
+7.46（現行版）
+	* upd：ANBooks 環境を Adobe AIR SDK 32 へ更新
 7.45（現行版）
 	* upd：build_base.xml最新が反映されない環境があるようなので更新
 7.44（現行版）
 	* bug：ダウンロードが正しく終了しなかった不具合（Noty〜onClose()スタックオーバーフロー）
-7.43（現行版）
-	* upd：AIRNovel 6.48に更新
 ]]></description>
 	</dmg>
 
 	<!-- Win update -->
 	<exe>
-		<version>7.45</version>
+		<version>7.46</version>
 		<url>https://raw.githubusercontent.com/famibee/AIRNovel/master/ANBooks/ANBooks7.exe</url>
 	<description><![CDATA[
+7.46（現行版）
+	* upd：ANBooks 環境を Adobe AIR SDK 32 へ更新
 7.45（現行版）
 	* upd：build_base.xml最新が反映されない環境があるようなので更新
 7.44（現行版）
 	* bug：ダウンロードが正しく終了しなかった不具合（Noty〜onClose()スタックオーバーフロー）
-7.43（現行版）
-	* upd：AIRNovel 6.48に更新
 ]]></description>
 	</exe>
 </update>
